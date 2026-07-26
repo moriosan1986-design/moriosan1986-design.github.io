@@ -56,12 +56,19 @@
   @keyframes pop { 0% { transform: scale(0.92); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
   .hero .mascot-caption { margin-top: 12px; font-size: 13px; font-weight: 700; color: #6C8584; }
   .hero .lead { margin-top: 20px; font-size: 15.5px; color: var(--ink-soft); }
-  .store-badge {
+  .cta-primary {
     display: inline-block; margin-top: 28px;
-    background: var(--ink); color: #fff; text-decoration: none;
+    background: var(--teal-bright); color: #fff; text-decoration: none;
     padding: 15px 34px; border-radius: 999px;
     font-size: 16px; font-weight: 800;
-    box-shadow: 0 10px 24px rgba(60,74,74,0.28);
+    box-shadow: 0 10px 24px rgba(79,190,189,0.35);
+  }
+  .cta-note { margin-top: 10px; font-size: 12px; color: var(--ink-faint); }
+  .store-badge {
+    display: inline-block; margin-top: 18px;
+    background: transparent; color: var(--ink-soft); text-decoration: none;
+    padding: 13px 32px; border-radius: 999px; border: 2px solid var(--ink-faint);
+    font-size: 15px; font-weight: 800;
   }
   .store-note { margin-top: 10px; font-size: 12px; color: var(--ink-faint); }
 
@@ -106,6 +113,9 @@
   .type-name { margin-top: 2px; font-size: 14.5px; font-weight: 800; }
   .type-desc { margin-top: 6px; font-size: 12px; color: var(--ink-soft); line-height: 1.6; }
 
+  .types-cta { margin-top: 32px; text-align: center; }
+  .types-cta-lead { font-size: 15px; font-weight: 800; color: var(--ink); }
+
   .support { text-align: left; }
   .support-card {
     margin-top: 24px; background: #fff; border-radius: var(--radius);
@@ -139,6 +149,8 @@
     </div>
     <p class="mascot-caption">マスコットの「みっけ」</p>
     <p class="lead">「何か資格を取りたいけど、どれが向いてるか分からない」<br>そんなあなたに。1分の性格診断で、12種類の動物タイプから<br>ぴったりの資格・検定をご提案します。</p>
+    <a class="cta-primary" href="https://moriosan1986-design.github.io/shikaku-mikke/quiz/">1分で診断してみる</a>
+    <p class="cta-note">アプリのインストール不要・無料</p>
     <a class="store-badge" href="https://apps.apple.com/jp/app/id6791038439">App Storeでダウンロード</a>
     <p class="store-note">iPhone向けアプリ・無料</p>
   </div>
@@ -246,6 +258,10 @@
         <div class="type-name">自分らしさ表現タイプ</div>
         <div class="type-desc">色彩検定など、センスを磨く資格</div>
       </div>
+    </div>
+    <div class="types-cta">
+      <p class="types-cta-lead">あなたはどのタイプ?</p>
+      <a class="cta-primary" href="https://moriosan1986-design.github.io/shikaku-mikke/quiz/">診断をはじめる(1分)</a>
     </div>
   </div>
 </section>
