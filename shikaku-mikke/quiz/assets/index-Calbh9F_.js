@@ -45,6 +45,8 @@
 
       ${i?'<p class="external-notice">広告：ボタンをタップすると外部サイトに移動します</p>':""}
 
+      ${ie(e.id)}
+
       <div class="share-buttons" data-page-url="${c(s)}" data-type-id="${c(e.id)}">
         <button type="button" class="btn btn-primary" id="share-x">Xでシェア</button>
         <button type="button" class="btn btn-secondary" id="share-native"${se?"":" hidden"}>シェアする</button>
@@ -53,8 +55,6 @@
       <a class="btn btn-secondary" href="${c(Q)}" target="_blank" rel="noopener">25問のじっくり診断はアプリで</a>
 
       <button type="button" class="btn btn-secondary" id="back-to-top">もう一度診断する</button>
-
-      ${ie(e.id)}
 
       <footer class="ad-disclosure">本サイトはアフィリエイト広告を利用しています</footer>
     </main>
