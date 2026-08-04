@@ -34,7 +34,7 @@
     },
     "features": {
       "tasting": true,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": null,
       "strollerOk": null
@@ -61,9 +61,9 @@
         "https://www.sapporobeer.jp/brewery/hokkaido/access/"
       ],
       "createdAt": "2026-07-19",
-      "updatedAt": "2026-07-28",
-      "lastCheckedAt": "2026-07-28",
-      "dataVersion": 5
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 6
     }
   },
   {
@@ -95,11 +95,11 @@
       "type": "paid",
       "adultYen": 500,
       "childYen": 0,
-      "note": "大学生以上500円、高校生以下は無料。障がい者手帳保持者と介護者1名は400円。体験施設(マイカップヌードルファクトリー1食500円、チキンラーメンファクトリー中学生以上1,200円/小学生600円)は別料金。"
+      "note": "大学生以上500円、高校生以下は無料。障がい者手帳保持者と介護者1名は400円。体験施設(マイカップヌードルファクトリー1食500円、チキンラーメンファクトリー中学生以上1,200円/小学生600円)は別料金。ミュージアムショップでオリジナルグッズ等を販売(購入)。"
     },
     "features": {
       "tasting": null,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": null,
       "strollerOk": null
@@ -130,9 +130,9 @@
         "https://www.nissin.com/jp/company/news/2099/"
       ],
       "createdAt": "2026-07-19",
-      "updatedAt": "2026-07-28",
-      "lastCheckedAt": "2026-07-27",
-      "dataVersion": 6
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 7
     }
   },
   {
@@ -164,11 +164,11 @@
       "type": "free",
       "adultYen": 0,
       "childYen": 0,
-      "note": "入館は無料。チキンラーメンファクトリー(小学生600円/中学生以上1,200円)、マイカップヌードルファクトリー(1食500円)は別途有料体験。"
+      "note": "入館は無料。チキンラーメンファクトリー(小学生600円/中学生以上1,200円)、マイカップヌードルファクトリー(1食500円)は別途有料体験。ミュージアムショップでオリジナルグッズやお土産用ラーメンセットなどを販売(購入)。"
     },
     "features": {
       "tasting": null,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": null,
       "strollerOk": null
@@ -198,9 +198,9 @@
         "https://www.cupnoodles-museum.jp/ja/osaka_ikeda/about/"
       ],
       "createdAt": "2026-07-19",
-      "updatedAt": "2026-07-28",
-      "lastCheckedAt": "2026-07-27",
-      "dataVersion": 5
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 6
     }
   },
   {
@@ -574,11 +574,11 @@
       "type": "free",
       "adultYen": 0,
       "childYen": 0,
-      "note": "入場・工場見学は無料。お菓子の詰め放題は専用袋1つ220円で別途有料です。"
+      "note": "入場・工場見学は無料。お菓子の詰め放題は専用袋1つ220円で別途有料です。どなたでも購入できる限定販売店あり。"
     },
     "features": {
       "tasting": null,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": null,
       "strollerOk": null
@@ -605,9 +605,9 @@
         "https://kikyouya.co.jp/corp/"
       ],
       "createdAt": "2026-07-19",
-      "updatedAt": "2026-07-28",
-      "lastCheckedAt": "2026-07-27",
-      "dataVersion": 2
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 3
     }
   },
   {
@@ -641,11 +641,11 @@
       "type": "free",
       "adultYen": 0,
       "childYen": 0,
-      "note": null
+      "note": "工場内の「プチミュージアムショップ」でひょうちゃんグッズ等を販売(購入)。"
     },
     "features": {
       "tasting": true,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": null,
       "strollerOk": null
@@ -671,9 +671,9 @@
         "https://kiyoken.com/factory/"
       ],
       "createdAt": "2026-07-19",
-      "updatedAt": "2026-07-28",
-      "lastCheckedAt": "2026-07-28",
-      "dataVersion": 6
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 7
     }
   },
   {
@@ -777,7 +777,7 @@
     },
     "features": {
       "tasting": true,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": null,
       "strollerOk": null
@@ -805,9 +805,9 @@
         "https://mentai-park.com/ooarai/reserve/"
       ],
       "createdAt": "2026-07-19",
-      "updatedAt": "2026-07-28",
-      "lastCheckedAt": "2026-07-27",
-      "dataVersion": 3
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 4
     }
   },
   {
@@ -916,7 +916,7 @@
     },
     "features": {
       "tasting": true,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": null,
       "strollerOk": null
@@ -945,9 +945,9 @@
         "https://www.kewpie.co.jp/entertainment/mayoterrace/attraction/"
       ],
       "createdAt": "2026-07-19",
-      "updatedAt": "2026-07-28",
-      "lastCheckedAt": "2026-07-28",
-      "dataVersion": 4
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 5
     }
   },
   {
@@ -1048,11 +1048,11 @@
       "type": "free",
       "adultYen": null,
       "childYen": null,
-      "note": null
+      "note": "見学後にミュージアムショップ利用が可能(商品購入)。"
     },
     "features": {
       "tasting": true,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": false,
       "strollerOk": null
@@ -1079,9 +1079,9 @@
         "https://www.morinaga.co.jp/factory/tsurumi/indiv.html"
       ],
       "createdAt": "2026-07-19",
-      "updatedAt": "2026-07-28",
-      "lastCheckedAt": "2026-07-27",
-      "dataVersion": 3
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 4
     }
   },
   {
@@ -1591,7 +1591,7 @@
     },
     "features": {
       "tasting": true,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": null,
       "strollerOk": null
@@ -1619,9 +1619,9 @@
         "https://factory.asahibeer.co.jp/reservations/add-day?area=ibaraki"
       ],
       "createdAt": "2026-07-21",
-      "updatedAt": "2026-07-28",
-      "lastCheckedAt": "2026-07-24",
-      "dataVersion": 4
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 5
     }
   },
   {
@@ -1660,7 +1660,7 @@
     },
     "features": {
       "tasting": true,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": null,
       "strollerOk": null
@@ -1688,9 +1688,9 @@
         "https://factory.asahibeer.co.jp/reservations/add-day?area=suita"
       ],
       "createdAt": "2026-07-21",
-      "updatedAt": "2026-07-28",
-      "lastCheckedAt": "2026-07-24",
-      "dataVersion": 3
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 4
     }
   },
   {
@@ -1729,7 +1729,7 @@
     },
     "features": {
       "tasting": true,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": true,
       "indoorOnly": null,
       "strollerOk": null
@@ -1758,9 +1758,9 @@
         "https://www.kirinholdings.com/jp/profile/organization/kirinbrewery/office/factory/"
       ],
       "createdAt": "2026-07-21",
-      "updatedAt": "2026-07-28",
-      "lastCheckedAt": "2026-07-27",
-      "dataVersion": 4
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 5
     }
   },
   {
@@ -2169,7 +2169,7 @@
       ],
       "createdAt": "2026-07-21",
       "updatedAt": "2026-07-28",
-      "lastCheckedAt": "2026-07-28",
+      "lastCheckedAt": "2026-08-04",
       "dataVersion": 3
     }
   },
@@ -2205,11 +2205,11 @@
       "type": "free",
       "adultYen": 0,
       "childYen": 0,
-      "note": "入館は無料の自由見学です。1階に無料の利き酒コーナーがあり、しぼりたての生原酒などを試飲できます(年齢制限の記載なし)。"
+      "note": "入館は無料の自由見学です。1階に無料の利き酒コーナーがあり、しぼりたての生原酒などを試飲できます(年齢制限の記載なし)。資料館限定の日本酒等は「白鶴オンラインショップ」で購入可能。"
     },
     "features": {
       "tasting": true,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": null,
       "strollerOk": null
@@ -2239,9 +2239,9 @@
         "https://www.hakutsuru.co.jp/english/culture/museum.html"
       ],
       "createdAt": "2026-07-21",
-      "updatedAt": "2026-07-28",
-      "lastCheckedAt": "2026-07-28",
-      "dataVersion": 3
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 4
     }
   },
   {
@@ -2624,7 +2624,7 @@
     },
     "features": {
       "tasting": null,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": null,
       "strollerOk": null
@@ -2652,9 +2652,9 @@
         "https://www.mint.go.jp/buy/mint-shop/coin_mint_shop_sai.html"
       ],
       "createdAt": "2026-07-21",
-      "updatedAt": "2026-07-28",
-      "lastCheckedAt": "2026-07-28",
-      "dataVersion": 4
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 5
     }
   },
   {
@@ -3136,6 +3136,277 @@
       "updatedAt": "2026-07-28",
       "lastCheckedAt": "2026-07-28",
       "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0047",
+    "name": "カルビー 清原工場",
+    "nameKana": "かるびー きよはらこうじょう",
+    "company": "カルビー",
+    "categoryId": "cat-food",
+    "subCategory": "スナック菓子・シリアル",
+    "prefectureCode": "09",
+    "city": "宇都宮市",
+    "address": "栃木県宇都宮市清原工業団地23-7",
+    "lat": 36.558681,
+    "lng": 139.980408,
+    "geoPrecision": "gaiku",
+    "access": "JR宇都宮駅東口からLRT(宇都宮ライトライン)でグリーンスタジアム停留場下車、徒歩12分。またはJR宇都宮駅からタクシーで約25分。",
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "web",
+        "phone"
+      ],
+      "note": "個人は先着順のWEB予約(見学希望日の1週間前までに要申込み)、団体・学校は工場見学専用電話で受付。"
+    },
+    "links": {
+      "official": "https://www.calbee.co.jp/factory/kiyohara/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "free",
+      "adultYen": null,
+      "childYen": null,
+      "note": "売店はないが、見学時間中に商品詰め合わせ(季節によって異なる)を販売している(配布ではなく有償)。"
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": "小学生以上(未就学児は入館不可)",
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": 120,
+      "note": null
+    },
+    "schedule": {
+      "openDays": "祝日を除く月〜木",
+      "closedNote": "金土日、祝日、お盆、年末年始、工場の行事がある日は実施なし",
+      "sessionsPerDay": 2
+    },
+    "status": "active",
+    "description": "カルビー清原工場は、フルグラとかっぱえびせんの製造工程を窓越しに見学できる工場見学施設です。所要時間は約120分で、事前予約制(個人はWEB予約、団体・学校は電話予約)。見学対象は小学生以上で、未就学児は入館できません。参加費は無料で、見学時間中には商品詰め合わせの販売があります。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.calbee.co.jp/factory/kiyohara/",
+        "https://www.calbee.co.jp/factory/common/img/kiyohara_map.pdf"
+      ],
+      "createdAt": "2026-08-04",
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 3
+    }
+  },
+  {
+    "id": "fac-0048",
+    "name": "コカ・コーラ ボトラーズジャパン 多摩工場",
+    "nameKana": "こかこーら ぼとらーずじゃぱん たまこうじょう",
+    "company": "コカ・コーラ ボトラーズジャパン",
+    "categoryId": "cat-beverage",
+    "subCategory": "清涼飲料水",
+    "prefectureCode": "13",
+    "city": "東久留米市",
+    "address": "東京都東久留米市野火止1-2-9",
+    "lat": 35.759586,
+    "lng": 139.514542,
+    "geoPrecision": "banchi",
+    "access": "西武池袋線清瀬駅南口から西武バス(武蔵小金井駅方面、前沢宿経由)で約8分、「東久留米総合高校」下車。または西武池袋線東久留米駅西口から西武バス(武蔵小金井駅方面、錦城高校経由)で約8分、「八幡町1丁目」下車。駐車場なし。",
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "web",
+        "phone"
+      ],
+      "note": "見学希望日の30日前から予約受付。車いす利用等配慮が必要な方・団体貸切・旅行代理店経由は電話で要相談。"
+    },
+    "links": {
+      "official": "https://www.ccbji.co.jp/plant/tama.php",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "free",
+      "adultYen": null,
+      "childYen": null,
+      "note": null
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": false,
+      "handsOn": true,
+      "indoorOnly": null,
+      "strollerOk": false
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": "中学生以下は保護者等の引率が必要",
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": 60,
+      "note": null
+    },
+    "schedule": {
+      "openDays": "毎週月曜日〜金曜日・祝日(工場休業日を除く)",
+      "closedNote": null,
+      "sessionsPerDay": 3
+    },
+    "status": "active",
+    "description": "コカ・コーラ ボトラーズジャパン多摩工場の工場見学です。スライド上映や製造工程見学、展示体験などを通じて、飲料の製造について学べます。所要時間は約60分。完全予約制で、Web予約は見学希望日の30日前から受け付けています。参加費は無料ですが、グッズ売店はありません。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.ccbji.co.jp/plant/tama.php"
+      ],
+      "createdAt": "2026-08-04",
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 3
+    }
+  },
+  {
+    "id": "fac-0049",
+    "name": "日産自動車 横浜工場",
+    "nameKana": "にっさんじどうしゃ よこはまこうじょう",
+    "company": "日産自動車株式会社",
+    "categoryId": "cat-vehicle",
+    "subCategory": "自動車(エンジン)",
+    "prefectureCode": "14",
+    "city": "横浜市神奈川区",
+    "address": "神奈川県横浜市神奈川区宝町2",
+    "lat": 35.480991,
+    "lng": 139.663818,
+    "geoPrecision": "town",
+    "access": "JR「新子安」駅・京浜急行「京急新子安」駅から神奈川産業道路経由で徒歩約17分。または市営バス19系統「新子安駅前」から「(宝町経由)新子安前行き」または「(宝町経由)生麦行き」で「宝町」下車、徒歩1分。",
+    "reservation": {
+      "required": null,
+      "methods": [
+        "web"
+      ],
+      "note": "予約サイトからの空き枠確認・予約制。受付は原則先着順。同業他社(自動車・自動車部品製造関連企業)勤務者の見学は不可。"
+    },
+    "links": {
+      "official": "https://www.nissan-global.com/JP/PLANT/TOUR/VISIT/YOKOHAMA/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": null,
+      "adultYen": null,
+      "childYen": null,
+      "note": null
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": null,
+      "note": "第1回10:00〜12:00、第2回13:45〜15:45の2回開催(水曜日はオンライン見学のみで現地見学なし)"
+    },
+    "schedule": {
+      "openDays": "月・火・木・金曜日(水曜日は現地見学休止、オンライン見学のみ)",
+      "closedNote": null,
+      "sessionsPerDay": 2
+    },
+    "status": "active",
+    "description": "日産自動車横浜工場は、日産自動車発祥の地でエンジンと電気自動車用モーターを製造するパワートレイン工場です。最新型エンジンの組立ラインを間近で見学でき、ゲストホール内の日産エンジンミュージアムでは歴代のエンジンの展示もあります。見学は月・火・木・金曜日に実施され、水曜日はオンライン見学のみです。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.nissan-global.com/JP/PLANT/TOUR/VISIT/YOKOHAMA/"
+      ],
+      "createdAt": "2026-08-04",
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 3
+    }
+  },
+  {
+    "id": "fac-0050",
+    "name": "三菱みなとみらい技術館",
+    "nameKana": "みつびしみなとみらいぎじゅつかん",
+    "company": "三菱重工業株式会社",
+    "categoryId": "cat-industry",
+    "subCategory": "重工業(陸・海・空・宇宙技術)",
+    "prefectureCode": "14",
+    "city": "横浜市西区",
+    "address": "神奈川県横浜市西区みなとみらい三丁目3番1号 KDX横浜みなとみらいタワー",
+    "lat": 35.455715,
+    "lng": 139.629608,
+    "geoPrecision": "banchi",
+    "access": "みなとみらい線「みなとみらい」駅5番けやき通り口から徒歩3分。またはJR根岸線・横浜市営地下鉄「桜木町」駅から徒歩8分。",
+    "reservation": {
+      "required": null,
+      "methods": null,
+      "note": "団体利用(一般団体予約・団体割引)は現在受付を行っていないが、学校団体のみ事前予約制で受付。個人利用について予約要否の明示は確認できず(要人間確認)。"
+    },
+    "links": {
+      "official": "https://www.mhi.com/jp/company/overview/museum/minatomirai",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": 500,
+      "childYen": 200,
+      "note": "大人500円、中学生・高校生300円、小学生200円。未就学児・65歳以上は無料(証明書提示)。障がい者本人と付添者1名は無料(障がい者手帳等提示)。入館料及びグッズ販売の支払いは現金のみ。"
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": true,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": null,
+      "note": null
+    },
+    "schedule": {
+      "openDays": null,
+      "closedNote": "毎週火曜・水曜(祝日の場合は翌日)、年末年始及び特定休館日は休館",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "三菱みなとみらい技術館は、三菱重工業株式会社が設立した企業ミュージアムです。陸・海・空・宇宙のテーマ別ゾーンやバーチャルツアーステーションなど、体験型の展示を通じて科学技術に親しめます。入館料は大人500円、中高生300円、小学生200円で、未就学児と65歳以上は無料です。休館日は火曜・水曜です。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.mhi.com/jp/company/overview/museum/minatomirai",
+        "https://www.mhi.com/jp/company/overview/museum/minatomirai/about_museum",
+        "https://www.mhi.com/jp/company/overview/museum/minatomirai/about_museum/opening_day.html",
+        "https://www.mhi.com/jp/company/overview/museum/minatomirai/about_museum/group_tours.html",
+        "https://www.mhi.com/jp/company/overview/museum/minatomirai/access",
+        "https://www.mhi.com/jp/company/overview/museum/minatomirai/access/minatomirai.html",
+        "https://www.mhi.com/jp/company/overview/museum/minatomirai/about_museum/faq.html"
+      ],
+      "createdAt": "2026-08-04",
+      "updatedAt": "2026-08-04",
+      "lastCheckedAt": "2026-08-04",
+      "dataVersion": 3
     }
   }
 ]
