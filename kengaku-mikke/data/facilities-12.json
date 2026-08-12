@@ -1321,7 +1321,7 @@
     },
     "features": {
       "tasting": true,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": false,
       "strollerOk": false
@@ -1341,16 +1341,16 @@
       "sessionsPerDay": null
     },
     "status": "active",
-    "description": "大阪府島本町にある、日本最古のモルトウイスキー蒸溜所です。有料の「ものづくりツアー」(約80分・3,000円・20歳以上限定)では仕込みから熟成までの製造工程を見学でき、終了後はシングルモルトウイスキー山崎や希少な原酒、山崎ハイボールを試飲できます。お土産にオリジナルテイスティンググラスも付き、予約は抽選制です。",
+    "description": "大阪府島本町にある、日本最古のモルトウイスキー蒸溜所です。有料の「ものづくりツアー」(約80分・3,000円・20歳以上限定)では仕込みから熟成までの製造工程を見学でき、終了後はシングルモルトウイスキー山崎や希少な原酒、山崎ハイボールを試飲できます。敷地内にはギフトショップやテイスティングラウンジもあります。予約は抽選制です。",
     "meta": {
       "sourceUrls": [
         "https://www.suntory.co.jp/factory/yamazaki/",
         "https://reserve.suntory.co.jp/regist/is?SMPFORM=ngoe-lenetb-550fe19094a7fbbfd41c49a7ce9cc871&courseNo=00369&eventDate="
       ],
       "createdAt": "2026-07-21",
-      "updatedAt": "2026-07-28",
+      "updatedAt": "2026-08-05",
       "lastCheckedAt": "2026-07-24",
-      "dataVersion": 4
+      "dataVersion": 5
     }
   },
   {
@@ -1388,7 +1388,7 @@
     },
     "features": {
       "tasting": true,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": null,
       "strollerOk": false
@@ -1408,7 +1408,7 @@
       "sessionsPerDay": 5
     },
     "status": "active",
-    "description": "山梨県北杜市、南アルプスの麓にある「森の蒸溜所」と呼ばれるウイスキー蒸溜所です。有料の「ものづくりツアー」(約90分・3,000円・20歳以上限定)ではウイスキー博物館の展示や木桶発酵槽、蒸溜釜、貯蔵庫を巡り、終了後にシングルモルトウイスキー白州や希少な原酒を試飲できます。オリジナルグラスのお土産付きで、予約は抽選制。JR小淵沢駅から無料シャトルバスも運行しています。",
+    "description": "山梨県北杜市、南アルプスの麓にある「森の蒸溜所」と呼ばれるウイスキー蒸溜所です。有料の「ものづくりツアー」(約90分・3,000円・20歳以上限定)ではウイスキー博物館の展示や木桶発酵槽、蒸溜釜、貯蔵庫を巡り、終了後にシングルモルトウイスキー白州や希少な原酒を試飲できます。予約は抽選制です。ギフトショップやテイスティングラウンジもあり、JR小淵沢駅から無料シャトルバスも運行しています。",
     "meta": {
       "sourceUrls": [
         "https://www.suntory.co.jp/factory/hakushu/",
@@ -1416,9 +1416,9 @@
         "https://reserve.suntory.co.jp/regist/is?SMPFORM=ngoe-lenetb-550fe19094a7fbbfd41c49a7ce9cc871&courseNo=00361&eventDate="
       ],
       "createdAt": "2026-07-21",
-      "updatedAt": "2026-07-28",
+      "updatedAt": "2026-08-05",
       "lastCheckedAt": "2026-07-24",
-      "dataVersion": 3
+      "dataVersion": 4
     }
   },
   {
@@ -1456,7 +1456,7 @@
     },
     "features": {
       "tasting": true,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": null,
       "indoorOnly": null,
       "strollerOk": false
@@ -1483,9 +1483,9 @@
         "https://reserve.suntory.co.jp/regist/is?SMPFORM=qerd-ljrcmc-182a8a8109ef83533ff37bd29004ab87&courseNo=00428&eventDate="
       ],
       "createdAt": "2026-07-21",
-      "updatedAt": "2026-07-28",
+      "updatedAt": "2026-08-05",
       "lastCheckedAt": "2026-07-24",
-      "dataVersion": 3
+      "dataVersion": 4
     }
   },
   {
@@ -1523,7 +1523,7 @@
     },
     "features": {
       "tasting": true,
-      "souvenir": true,
+      "souvenir": null,
       "handsOn": true,
       "indoorOnly": null,
       "strollerOk": null
@@ -1543,16 +1543,16 @@
       "sessionsPerDay": 6
     },
     "status": "active",
-    "description": "山梨県北杜市、白州蒸溜所と同じ敷地内にあるサントリー天然水〈南アルプス〉の工場見学ツアーです。無料の「ものがたりツアー」(約60分)では、クイズや仕掛け展示、ワイドスクリーン映像を通して天然水が育まれる様子や製造ラインを紹介する体験型の内容になっています。見学後には天然水の試飲と、天然水ブランドのお土産1点がもらえます。JR小淵沢駅から無料シャトルバスも運行しています。",
+    "description": "山梨県北杜市、白州蒸溜所と同じ敷地内にあるサントリー天然水〈南アルプス〉の工場見学ツアーです。無料の「ものがたりツアー」(約60分)では、クイズや仕掛け展示、ワイドスクリーン映像を通して天然水が育まれる様子や製造ラインを紹介する体験型の内容になっています。見学後には天然水の試飲ができます。JR小淵沢駅から無料シャトルバスも運行しています。",
     "meta": {
       "sourceUrls": [
         "https://reserve.suntory.co.jp/regist/is?SMPFORM=ngoe-lenetb-550fe19094a7fbbfd41c49a7ce9cc871&courseNo=00050&eventDate=",
         "https://www.suntory.co.jp/factory/water/"
       ],
       "createdAt": "2026-07-21",
-      "updatedAt": "2026-07-28",
+      "updatedAt": "2026-08-05",
       "lastCheckedAt": "2026-07-26",
-      "dataVersion": 5
+      "dataVersion": 6
     }
   },
   {
@@ -3407,6 +3407,336 @@
       "updatedAt": "2026-08-04",
       "lastCheckedAt": "2026-08-04",
       "dataVersion": 3
+    }
+  },
+  {
+    "id": "fac-0051",
+    "name": "本田技研工業 鈴鹿製作所",
+    "nameKana": "ほんだぎけんこうぎょう すずかせいさくしょ",
+    "company": "本田技研工業株式会社",
+    "categoryId": "cat-vehicle",
+    "subCategory": "自動車(完成車)",
+    "prefectureCode": "24",
+    "city": "鈴鹿市",
+    "address": "三重県鈴鹿市平田町1907",
+    "lat": 34.864826,
+    "lng": 136.527344,
+    "geoPrecision": "banchi",
+    "access": "東名阪自動車道（鈴鹿インター）から車（バス含む）で20分。近鉄「白子駅」から、車（路線バス含む）で20分。近鉄「平田町駅」から、車（路線バス含む）で10分。",
+    "reservation": {
+      "required": null,
+      "methods": [
+        "web"
+      ],
+      "note": "見学希望日の3か月前の1日0時から7日24時までにインターネットの申込みページから応募する(先着順ではなく抽選)。4月・8月希望のみ申込期間が異なる(4月希望は1月1日〜1月10日、8月希望は5月1日〜5月10日)。工場から申込み月の25日までに見学可否をメールで回答し、見学可の場合は見学申込書が送付される。小学校は名簿を当日持参、一般は氏名・年齢・勤務先が分かるリストを申込書とともに送付する。個人・家族での申込可否は本文から明示されない(要人間確認)。"
+    },
+    "links": {
+      "official": "https://global.honda/jp/suzuka/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": null,
+      "adultYen": null,
+      "childYen": null,
+      "note": null
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": 90,
+      "note": "見学される人数により多少前後します。"
+    },
+    "schedule": {
+      "openDays": null,
+      "closedNote": null,
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "三重県鈴鹿市にある本田技研工業の自動車組立工場です。エンジンドッキング、ドア、タイヤ、ガラス装着などの様子を含む完成車組立ラインを、基本コース約90分で見学できます。見学は事前のお申し込みにより実施され、希望月の3か月前に申し込みます。小学校向けと一般向けの申込枠があります。",
+    "meta": {
+      "sourceUrls": [
+        "https://global.honda/jp/suzuka/"
+      ],
+      "createdAt": "2026-08-06",
+      "updatedAt": "2026-08-06",
+      "lastCheckedAt": "2026-08-05",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0052",
+    "name": "本田技研工業 埼玉製作所 完成車工場",
+    "nameKana": "ほんだぎけんこうぎょう さいたませいさくしょ かんせいしゃこうじょう",
+    "company": "本田技研工業株式会社",
+    "categoryId": "cat-vehicle",
+    "subCategory": "自動車(完成車)",
+    "prefectureCode": "11",
+    "city": "大里郡寄居町",
+    "address": "埼玉県大里郡寄居町富田2354",
+    "lat": 36.092697,
+    "lng": 139.232162,
+    "geoPrecision": "banchi",
+    "access": null,
+    "reservation": {
+      "required": null,
+      "methods": [
+        "web"
+      ],
+      "note": "見学希望日の2か月前の1日0時から7日24時までにインターネットの申込みページから応募する(先着順ではなく抽選)。ただし3月・7月希望は申込期間が異なる(3月希望は1月1日〜1月10日、7月希望は5月1日〜5月10日)。工場から申込み月の25日前後に見学可否をメールで回答し、見学2週間前までに名簿を提出する。一般見学と小学校見学の枠がある。個人・家族での申込可否は本文から明示されない(要人間確認)。"
+    },
+    "links": {
+      "official": "https://global.honda/jp/saitama/yorii.html",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": null,
+      "adultYen": null,
+      "childYen": null,
+      "note": null
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": null,
+      "note": null
+    },
+    "schedule": {
+      "openDays": null,
+      "closedNote": null,
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "埼玉県寄居町にある本田技研工業の四輪完成車工場です。2013年に稼働し、車体のプレス加工から完成車検査・出荷までを行っています。CIVICやFREED、STEPWGNなど幅広い車種を生産しています。見学は一般見学・小学校見学の申込みにより実施され、希望月の2か月前に申し込みます。",
+    "meta": {
+      "sourceUrls": [
+        "https://global.honda/jp/saitama/yorii.html"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "lastCheckedAt": "2026-08-12",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0053",
+    "name": "本田技研工業 埼玉製作所 エンジン工場",
+    "nameKana": "ほんだぎけんこうぎょう さいたませいさくしょ えんじんこうじょう",
+    "company": "本田技研工業株式会社",
+    "categoryId": "cat-vehicle",
+    "subCategory": "自動車(エンジン)",
+    "prefectureCode": "11",
+    "city": "比企郡小川町",
+    "address": "埼玉県比企郡小川町ひばり台2-1-1",
+    "lat": 36.078236,
+    "lng": 139.245483,
+    "geoPrecision": "gaiku",
+    "access": null,
+    "reservation": {
+      "required": null,
+      "methods": [
+        "web"
+      ],
+      "note": "見学希望日の2か月前の1日0時から7日24時までにインターネットの申込みページから応募する(先着順ではなく抽選)。ただし3月・7月希望は申込期間が異なる(3月希望は1月1日〜1月10日、7月希望は5月1日〜5月10日)。工場から申込み月の25日前後に見学可否をメールで回答し、見学2週間前までに名簿を提出する。一般見学と小学校見学の枠がある。個人・家族での申込可否は本文から明示されない(要人間確認)。"
+    },
+    "links": {
+      "official": "https://global.honda/jp/saitama/ogawa.html",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": null,
+      "adultYen": null,
+      "childYen": null,
+      "note": null
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": null,
+      "note": null
+    },
+    "schedule": {
+      "openDays": null,
+      "closedNote": null,
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "埼玉県小川町にある本田技研工業のエンジン専用工場です。2009年に稼働し、エンジン部品の鋳造・加工から組立までを行い、寄居町の完成車工場や国内外の工場に環境対応エンジンを供給しています。見学は一般見学・小学校見学の申込みにより実施され、希望月の2か月前に申し込みます。",
+    "meta": {
+      "sourceUrls": [
+        "https://global.honda/jp/saitama/ogawa.html"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "lastCheckedAt": "2026-08-12",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0054",
+    "name": "本田技研工業 熊本製作所",
+    "nameKana": "ほんだぎけんこうぎょう くまもとせいさくしょ",
+    "company": "本田技研工業株式会社",
+    "categoryId": "cat-vehicle",
+    "subCategory": "二輪車・パワープロダクツ",
+    "prefectureCode": "43",
+    "city": "菊池郡大津町",
+    "address": "熊本県菊池郡大津町平川1500",
+    "lat": 32.899319,
+    "lng": 130.866776,
+    "geoPrecision": "banchi",
+    "access": "阿蘇熊本空港から車で20分。豊肥本線「JR肥後大津駅」から車で10分。",
+    "reservation": {
+      "required": null,
+      "methods": [
+        "web"
+      ],
+      "note": "見学希望日の2か月前の1日0時から10日24時までにインターネットの申込みページから応募する(先着順ではなく抽選)。ただし3月・7月希望は申込期限が異なる(3月希望は1月1日〜1月12日、7月希望は5月1日〜5月12日)。工場から申込み月の翌月2週目頃に見学可否をメールで送信し、名簿はメールまたは郵送で提出する。個人・家族での申込可否は本文から明示されない(要人間確認)。"
+    },
+    "links": {
+      "official": "https://global.honda/jp/kumamoto/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": null,
+      "adultYen": null,
+      "childYen": null,
+      "note": null
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": null,
+      "note": null
+    },
+    "schedule": {
+      "openDays": null,
+      "closedNote": null,
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "熊本県大津町にある本田技研工業の製作所です。1976年に操業を開始し、二輪車とパワープロダクツを、部品加工から完成車組立まで一貫して生産しています。ゴールドウイングやスーパーカブなど多機種を手がけています。見学は申込みにより実施され、希望月の2か月前に申し込みます。",
+    "meta": {
+      "sourceUrls": [
+        "https://global.honda/jp/kumamoto/"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "lastCheckedAt": "2026-08-12",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0055",
+    "name": "本田技研工業 浜松製作所",
+    "nameKana": "ほんだぎけんこうぎょう はままつせいさくしょ",
+    "company": "本田技研工業株式会社",
+    "categoryId": "cat-vehicle",
+    "subCategory": "自動車部品(トランスミッション)",
+    "prefectureCode": "22",
+    "city": "浜松市中央区",
+    "address": "静岡県浜松市中央区葵東1-13-1",
+    "lat": 34.752831,
+    "lng": 137.720673,
+    "geoPrecision": "gaiku",
+    "access": "JR東海道本線 浜松駅からタクシー／バス30分。東名高速道路 浜松西インターから車6分。",
+    "reservation": {
+      "required": null,
+      "methods": [
+        "web"
+      ],
+      "note": "見学希望月の3か月前の1日0時から10日24時までにお申し込みフォームから応募する。工場から申込み月の25日までに見学可否をメールで回答し(内容確認の連絡が入る場合あり)、見学可の場合は見学申請書(Forms)を提出後、参加者名簿を提出する。本文は申込者を一貫して「団体様」と呼んでおり、個人・家族での申込可否は本文から明示されない(要人間確認)。"
+    },
+    "links": {
+      "official": "https://global.honda/jp/hamamatsu/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": null,
+      "adultYen": null,
+      "childYen": null,
+      "note": null
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": 140,
+      "note": "ご要望により、環境エリア・厚生施設の見学も可能です。"
+    },
+    "schedule": {
+      "openDays": null,
+      "closedNote": null,
+      "sessionsPerDay": 2
+    },
+    "status": "active",
+    "description": "静岡県浜松市にある本田技研工業の浜松製作所です。Honda発祥の地に1954年に設立された拠点で、CVTやe:HEV、MTなど自動車用トランスミッションの機械加工・組立工程を見学できます。所要時間は約140分で、要望により環境エリアや厚生施設の見学も可能です。見学は申込みにより実施されます。",
+    "meta": {
+      "sourceUrls": [
+        "https://global.honda/jp/hamamatsu/"
+      ],
+      "createdAt": "2026-08-12",
+      "updatedAt": "2026-08-12",
+      "lastCheckedAt": "2026-08-12",
+      "dataVersion": 1
     }
   }
 ]
