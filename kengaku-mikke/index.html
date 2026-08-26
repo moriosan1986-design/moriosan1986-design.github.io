@@ -56,13 +56,11 @@
       .store-badge {
         display: inline-block;
         margin-top: 24px;
-        background: transparent;
-        color: #6e5e54;
-        text-decoration: none;
-        padding: 12px 28px;
-        border-radius: 999px;
-        border: 2px solid #e5dad2;
-        font-size: 14.5px;
+      }
+      .store-badge img {
+        display: block;
+        height: 40px;
+        width: auto;
       }
       hr {
         margin-top: 40px;
@@ -85,7 +83,7 @@
   <body>
     <h1>見学みっけ</h1>
     <p class="lead">全国の工場見学・施設見学スポットを探せるアプリ</p>
-    <p class="count">掲載施設数: 46件</p>
+    <p class="count">掲載施設数: <span id="facility-count">82</span>件</p>
 
     <h2>主な特徴</h2>
     <ul>
@@ -96,8 +94,9 @@
       <li>無料・予約不要などの条件で絞り込める</li>
     </ul>
 
-    <!-- TODO: App Store 公開後、正式なURLに差し替える -->
-    <span class="store-badge">App Store 準備中</span>
+    <a class="store-badge" href="https://apps.apple.com/jp/app/id6799468407">
+      <img src="./assets/app-store-badge.svg" alt="Download on the App Store" />
+    </a>
 
     <hr />
     <p class="source-note">
@@ -109,5 +108,32 @@
       <a href="./privacy-policy.html">プライバシーポリシー</a>
       <a href="./support.html">サポート</a>
     </nav>
+    <script>
+      (function () {
+        var BASE = './data/';
+        fetch(BASE + 'version.json', { cache: 'no-store' })
+          .then(function (res) {
+            if (!res.ok) throw new Error('version.json fetch failed');
+            return res.json();
+          })
+          .then(function (version) {
+            return fetch(BASE + 'facilities-' + version.dataVersion + '.json', { cache: 'no-store' }).then(
+              function (res) {
+                if (!res.ok) throw new Error('facilities json fetch failed');
+                return res.json();
+              },
+            );
+          })
+          .then(function (facilities) {
+            var el = document.getElementById('facility-count');
+            if (el && Array.isArray(facilities)) {
+              el.textContent = String(facilities.length);
+            }
+          })
+          .catch(function () {
+            // 取得失敗時はHTMLに直書きした初期値をそのまま表示する
+          });
+      })();
+    </script>
   </body>
 </html>
