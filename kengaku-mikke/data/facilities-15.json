@@ -3738,5 +3738,1828 @@
       "lastCheckedAt": "2026-08-12",
       "dataVersion": 1
     }
+  },
+  {
+    "id": "fac-0056",
+    "name": "ニセコ蒸溜所",
+    "nameKana": "にせこじょうりゅうしょ",
+    "company": "株式会社ニセコ蒸溜所",
+    "categoryId": "cat-beverage",
+    "subCategory": "ウイスキー・ジン",
+    "prefectureCode": "01",
+    "city": "虻田郡ニセコ町",
+    "address": "北海道虻田郡ニセコ町ニセコ478-15",
+    "lat": 42.829296,
+    "lng": 140.638992,
+    "geoPrecision": "town",
+    "access": "JRニセコ駅から路線バスまたはタクシーで約10分。札幌からR230(中山峠)経由で車で約2時間、小樽からR5経由で車で約1時間30分。",
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "web"
+      ],
+      "note": "見学ツアーは予約制で、参加前日までの予約が必要(前日から最長約1か月先まで予約可能)。ショップ・バーカウンターの利用は予約不要。"
+    },
+    "links": {
+      "official": "https://niseko-distillery.com/ja/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": null,
+      "childYen": null,
+      "note": "見学ツアー参加費は4月〜11月が1,500円(税込)、12月〜3月が2,000円(税込)で、季節により異なる。事前決済制。3歳以上の参加者は大人と同額。施設入場・ショップ・バーカウンターの利用自体は無料。"
+    },
+    "features": {
+      "tasting": true,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": null,
+      "note": null
+    },
+    "schedule": {
+      "openDays": "年中無休",
+      "closedNote": "積雪・吹雪等の悪天候により営業時間の変更や休業の場合あり",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "ニセコアンヌプリの麓に位置し、ウイスキーとジンを製造する蒸溜所です。予約制の見学ツアーでは、スタッフの案内で製造工程を巡り、最後に蒸溜したてのニューポットとお好みのドリンク1杯を味わえます。参加費は季節により1,500円〜2,000円。ショップやバーカウンターは予約不要・入場無料で利用できます。",
+    "meta": {
+      "sourceUrls": [
+        "https://niseko-distillery.com/ja/",
+        "https://niseko-distillery.com/ja/distillery",
+        "https://niseko-distillery.com/ja/qa",
+        "https://niseko-distillery.com/ja/access",
+        "https://niseko-distillery.com/ja/about"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0057",
+    "name": "北一硝子 製作体験工房",
+    "nameKana": "きたいちがらす せいさくたいけんこうぼう",
+    "company": "株式会社北一硝子",
+    "categoryId": "cat-craft",
+    "subCategory": "ガラス細工体験",
+    "prefectureCode": "01",
+    "city": "小樽市",
+    "address": "北海道小樽市堺町7-8",
+    "lat": 43.192055,
+    "lng": 141.00737,
+    "geoPrecision": "gaiku",
+    "access": null,
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "web",
+        "phone"
+      ],
+      "note": "体験希望日の2日前17:00までにWEB予約申し込みフォームまたは電話・メールで申込み。前日・当日の申込みは電話のみ(当日は直接来店の場合もあり)。団体利用は事前にメールで要連絡。"
+    },
+    "links": {
+      "official": "https://kitaichiglass.co.jp/seisaku-taiken/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": null,
+      "childYen": null,
+      "note": "サンドブラスト体験はクイックコース(30分程度)体験料1,200円+グラス代1,800円~+図柄シート代、じっくりコース(40〜90分程度)体験料1,300円+グラス代1,800円~+図柄シート代。とんぼ玉アレンジメント体験はコース(ヘアゴム・ペンダント・ストラップ・ブレスレット)により体験料200〜350円+パーツ代+とんぼ玉代(1個80〜2,000円)。"
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": true,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": null,
+      "note": "サンドブラスト体験は30分程度(クイックコース)〜40〜90分程度(じっくりコース)、とんぼ玉アレンジメント体験は15分程度(ヘアゴム)〜50分程度(ブレスレット)など、選ぶコースにより異なる。"
+    },
+    "schedule": {
+      "openDays": "年中無休",
+      "closedNote": null,
+      "sessionsPerDay": null
+    },
+    "status": "unknown",
+    "description": "小樽の北一硝子が運営する製作体験工房です。ガラス表面に砂を吹き付けて模様を描く「サンドブラスト体験」と、とんぼ玉を組み合わせて小物を作る「とんぼ玉アレンジメント体験」を、有料・予約制で楽しめます。職人による吹きガラス等の無料見学コーナー「見学工房」は、公式サイト上で休業中と案内されています。",
+    "meta": {
+      "sourceUrls": [
+        "https://kitaichiglass.co.jp/seisaku-taiken/",
+        "https://kitaichiglass.co.jp/seisakutaikenkobo/",
+        "https://kitaichiglass.co.jp/seisakutaikenkobo_taiken1/",
+        "https://kitaichiglass.co.jp/seisakutaikenkobo_taiken2/",
+        "https://kitaichiglass.co.jp/access-2/",
+        "https://kitaichiglass.co.jp/service-guide/",
+        "https://kitaichiglass.co.jp/profile/"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0058",
+    "name": "明治なるほどファクトリー十勝",
+    "nameKana": "めいじなるほどふぁくとりーとかち",
+    "company": "明治",
+    "categoryId": "cat-food",
+    "subCategory": "乳製品(チーズ・生クリーム)",
+    "prefectureCode": "01",
+    "city": "河西郡芽室町",
+    "address": "北海道河西郡芽室町東芽室北1線15-2",
+    "lat": 42.929306,
+    "lng": 143.091888,
+    "geoPrecision": "gaiku",
+    "access": "帯広・広尾自動車道芽室帯広ICから車で約5分。駐車場あり(大型バスも可)。",
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "web",
+        "phone"
+      ],
+      "note": "完全予約制。2〜10名の個人はWEBカレンダーで空き状況を確認のうえWEBまたは電話で予約(1か月先まで受付)。11〜50名の一般団体は電話のみで予約。小学校社会科見学・幼稚園・保育園等は電話で問い合わせ。車いす使用者や介助が必要な方、補助犬同伴の方は必ず電話で申込み。中学生以下の方は保護者の同伴が必要。"
+    },
+    "links": {
+      "official": "https://www.meiji.co.jp/learned/factory/tokachi/visit.html",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "free",
+      "adultYen": 0,
+      "childYen": 0,
+      "note": null
+    },
+    "features": {
+      "tasting": true,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": 70,
+      "note": null
+    },
+    "schedule": {
+      "openDays": "月〜金曜日",
+      "closedNote": "土曜日、日曜日、祝日、年末年始、その他指定日は休館",
+      "sessionsPerDay": 3
+    },
+    "status": "active",
+    "description": "北海道河西郡芽室町にある明治のチーズ・生クリーム製造工場です。完全予約制の見学ツアーは所要約70分で、製造工程を見学ラインから見ることができるほか、映像や展示でチーズの知識を学べます。見学の最後にはチーズの試食があります。中学生以下は保護者の同伴が必要です。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.meiji.co.jp/learned/factory/tokachi/visit.html",
+        "https://www.meiji.co.jp/learned/factory/tokachi/",
+        "https://www.meiji.co.jp/learned/factory/tokachi/access.html"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0059",
+    "name": "男山酒造り資料舘",
+    "nameKana": "おとこやましゅぞうりしりょうかん",
+    "company": "男山株式会社",
+    "categoryId": "cat-beverage",
+    "subCategory": "日本酒(酒蔵資料館)",
+    "prefectureCode": "01",
+    "city": "旭川市",
+    "address": "北海道旭川市永山2条7丁目1番33号",
+    "lat": 43.795567,
+    "lng": 142.409744,
+    "geoPrecision": "banchi",
+    "access": "道北バス「永山2条6丁目バス停」下車徒歩2分。旭川空港から車で約30分、旭山動物園から車で約15分、鷹栖ICから車で約15分。",
+    "reservation": {
+      "required": null,
+      "methods": null,
+      "note": "資料舘・試飲コーナー・仕込水の開放・前庭のいずれについても、予約要否に関する記載は公式ページ本文中に見当たらない。営業案内はOTOKOYAMA SAKE PARK特設サイト(sake-park.otokoyama.com)への案内があるが、同サイトはNuxt.jsによる動的描画のためcurlでは本文を取得できず、追加確認はできていない(要人間確認)。"
+    },
+    "links": {
+      "official": "https://www.otokoyama.com/museum/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "free",
+      "adultYen": 0,
+      "childYen": 0,
+      "note": null
+    },
+    "features": {
+      "tasting": true,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": false,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": null,
+      "note": null
+    },
+    "schedule": {
+      "openDays": null,
+      "closedNote": "年末年始(12/31、1/1〜3)に休舘",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "北海道旭川市にある男山の酒造り資料舘です。江戸時代の酒器や文献など350年の歴史を伝える資料を展示し、仕込みの時期には酒造りの様子も一部見学できます。入舘料は無料で、試飲コーナー(隣接の売店内)では男山の日本酒を試飲できます。前庭には日本庭園があり、季節ごとに鯉の餌やりや雪遊びも楽しめます。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.otokoyama.com/museum/"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0060",
+    "name": "BUNACO 西目屋工場",
+    "nameKana": "ぶなこ にしめやこうじょう",
+    "company": "ブナコ株式会社",
+    "categoryId": "cat-craft",
+    "subCategory": "木工芸(ブナコ)",
+    "prefectureCode": "02",
+    "city": "中津軽郡西目屋村",
+    "address": "青森県中津軽郡西目屋村大字田代字稲元196",
+    "lat": 40.56916,
+    "lng": 140.296799,
+    "geoPrecision": "town",
+    "access": "路線バス:弘前バスターミナルより「弘前〜西目屋村役場線」乗車約50分、「西目屋村役場前」下車徒歩約3分。車:東北自動車道大鰐弘前ICから約40分、JR弘前駅から約30分。",
+    "reservation": {
+      "required": "recommended",
+      "methods": [
+        "web"
+      ],
+      "note": "製作体験は工場営業日であれば通年受付、個人・団体共に予約優先(申込状況により受け入れ不可の日程あり)。団体向け「ガイド付き工場見学」(10名から、有料)は要事前予約。個人向け「自由見学DAY」(月1回程度、無料)は見学のみで予約不要。キャンセル料: 2日前〜前日50%、当日・無連絡100%。"
+    },
+    "links": {
+      "official": "https://www.bunaco.co.jp/workshop.html",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": null,
+      "childYen": null,
+      "note": "製作体験プラン(24cm・見学込み)9,900円(税込、送料込)。ランプシェード体験(大)35,200円、(小)17,600円。ミニプラン(お持ち帰り)はまる3,300円、だえん4,400円。別途、月1回程度の「自由見学DAY」は無料。団体向け「ガイド付き工場見学」は1名1,100円(工場見学限定チャーム付・10名から)。教育課程の一環の学校見学は無料。"
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": true,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": "小学3年生以上(一人で製作可能。未満は保護者との共同作業、保護者同伴必須)",
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": null,
+      "note": "製作体験プラン・ランプシェード体験プランは見学含め約1時間〜1時間30分、ミニプランは約45分〜1時間。自由見学DAYは約20〜30分、団体ガイド付き見学は約30分。選ぶプランにより異なる。"
+    },
+    "schedule": {
+      "openDays": null,
+      "closedNote": null,
+      "sessionsPerDay": 2
+    },
+    "status": "active",
+    "description": "青森県西目屋村にあるブナコ株式会社の工場です。木のテープを巻き重ねて成形する独自の技法「ブナコ」を使い、うつわやランプシェードを作る製作体験ができ、ガイド付きの工場見学も含まれます。料金はプランにより3,300円〜35,200円。月1回程度、無料の「自由見学DAY」も開催されます。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.bunaco.co.jp/workshop.html",
+        "https://www.bunaco.co.jp/factorytour_contents.html",
+        "https://www.bunaco.co.jp/workshop_contents.html",
+        "https://www.bunaco.co.jp/about.html"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0061",
+    "name": "小岩井農場 まきば園",
+    "nameKana": "こいわいのうじょう まきばえん",
+    "company": "小岩井農牧株式会社",
+    "categoryId": "cat-food",
+    "subCategory": "乳製品(観光牧場)",
+    "prefectureCode": "03",
+    "city": "岩手郡雫石町",
+    "address": "岩手県岩手郡雫石町丸谷地36-1",
+    "lat": 39.73444,
+    "lng": 141.007233,
+    "geoPrecision": "gaiku",
+    "access": "東北自動車道盛岡ICから車で約15分(12km)。JR盛岡駅前10番のりばから路線バス「小岩井農場まきば園」行きで約35分(運賃750円)。JR田沢湖線小岩井駅からタクシーで約10〜15分。",
+    "reservation": {
+      "required": null,
+      "methods": [
+        "web"
+      ],
+      "note": "通常の入園に予約が必要との明記は見当たらない。2026年春から「スムーズ入場事前予約チケット」(デジタルチケット)の販売が開始されている(必須かどうかは本文からは判断できない)。"
+    },
+    "links": {
+      "official": "https://www.koiwaifarm.com/",
+      "jalanAffiliate": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3779530&pid=892687128&vc_url=https%3A%2F%2Fwww.jalan.net%2Fkankou%2Fspt_03301cb3520079823%2Factivity%2Fl00003EFDE%2F",
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": 800,
+      "childYen": 300,
+      "note": "まきば園の入場料(グリーンシーズン、2026年4月11日〜)。大人(中学生以上)800円、子ども(5歳〜小学6年生)300円。ペット(犬)1頭500円。障がい者は大人・子どもとも半額。入場料は園内の各施設・アトラクション(ミルク館含む)を含む共通料金で、乳製品加工見学に特化した個別料金ではない。"
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": false,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": null,
+      "note": null
+    },
+    "schedule": {
+      "openDays": "4月1日〜11月中旬 9:00〜17:00(グリーンシーズン営業時間、最終入場16:00)",
+      "closedNote": null,
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "岩手県雫石町にある小岩井農場の観光エリア「まきば園」です。乳製品加工をガラス越しに見学できる「ミルク館」があるほか、動物とのふれあいや乗馬体験、レストラン、おみやげ店なども備えた広大な観光牧場です。入場料は大人800円、子ども(5歳〜小学6年生)300円で、営業期間は4月1日〜11月中旬です。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.koiwaifarm.com/",
+        "https://www.koiwaifarm.com/guide/hours/",
+        "https://www.koiwaifarm.com/guide/entry/",
+        "https://www.koiwaifarm.com/guide/access/"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-31",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 2
+    }
+  },
+  {
+    "id": "fac-0062",
+    "name": "鐘崎 笹かま館",
+    "nameKana": "かねざき ささかまかん",
+    "company": "鐘崎",
+    "categoryId": "cat-food",
+    "subCategory": "練り物・かまぼこ",
+    "prefectureCode": "04",
+    "city": "仙台市若林区",
+    "address": "宮城県仙台市若林区鶴代町6-65",
+    "lat": 38.257023,
+    "lng": 140.955032,
+    "geoPrecision": "banchi",
+    "access": "地下鉄東西線「荒井駅」から市営バス(16系統「鶴巻循環」行きまたは18系統「岡田・新浜」行き)で「卸町東五丁目北」下車すぐ。仙台駅から車で約20〜30分。仙台東部道路仙台東ICから車で約5分。",
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "web",
+        "phone"
+      ],
+      "note": "通常の「工場見学」(窓越し・ガイド付き、無料、所要約25分)は現在中止中で再開時期未定。現在実施されているのは毎週土曜・日曜開催の「朝食付き早朝工場見学」で、完全予約制(見学前日午前8時まで受付、クービック社の予約システムを使用)。"
+    },
+    "links": {
+      "official": "https://www.kanezaki.co.jp/shop/belle_factory/factory_tour.html",
+      "jalanAffiliate": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3779530&pid=892687128&vc_url=https%3A%2F%2Fwww.jalan.net%2Fkankou%2Fspt_guide000000225669%2Factivity%2Fl000057560%2F",
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": 1800,
+      "childYen": null,
+      "note": "早朝工場見学の料金は1名1,800円(税込、朝食付き)。未就学児は食事有無を選択でき、食事なしの場合は0円。館内(笹かま館)自体の入場は無料。"
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": null,
+      "note": "早朝工場見学はAM7:50集合、8:00見学開始、8:45朝食(その後自由見学可)というスケジュールで案内されているが、合計所要時間の明記はない。"
+    },
+    "schedule": {
+      "openDays": "毎週土曜・日曜(早朝工場見学の開催日)。館自体の営業時間は9:30〜18:00。",
+      "closedNote": "季節により営業時間の変更・店休日あり(詳細は要問合せ)",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "仙台の鐘崎が運営するかまぼこのアミューズメント施設です。通常の窓越し工場見学は現在中止中(再開時期未定)ですが、毎週土曜・日曜には朝食付きの「早朝工場見学」(完全予約制、1名1,800円)を実施しています。館内には笹かま手作り体験教室や七夕ミュージアムなど、かまぼこ以外の展示・体験も揃っています。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.kanezaki.co.jp/shop/belle_factory/",
+        "https://www.kanezaki.co.jp/shop/belle_factory/factory_tour.html",
+        "https://www.kanezaki.co.jp/shop/belle_factory/early_morning.html",
+        "https://www.kanezaki.co.jp/shop/belle_factory/access.html"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-31",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 2
+    }
+  },
+  {
+    "id": "fac-0063",
+    "name": "川連漆器伝統工芸館",
+    "nameKana": "かわつらしっきでんとうこうげいかん",
+    "company": "秋田県漆器工業協同組合",
+    "categoryId": "cat-craft",
+    "subCategory": "漆器(川連漆器)",
+    "prefectureCode": "05",
+    "city": "湯沢市",
+    "address": "秋田県湯沢市川連町字大舘中野142-1",
+    "lat": 39.149883,
+    "lng": 140.584579,
+    "geoPrecision": "town",
+    "access": null,
+    "reservation": {
+      "required": null,
+      "methods": [
+        "web",
+        "phone"
+      ],
+      "note": "1階展示販売コーナー・2階歴史資料館の見学における予約要否の記載はなし。沈金体験・蒔絵体験は「HPまたはお電話にてご予約ください」と案内されている。"
+    },
+    "links": {
+      "official": "https://www.kawatsura.or.jp/shop/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": null,
+      "adultYen": null,
+      "childYen": null,
+      "note": "沈金体験・蒔絵体験は各お一人様2,750円(3人以上の場合、体験時間1時間半)。1階展示販売コーナー・2階歴史資料館の入館料についての明記は見当たらない。"
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": true,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": 90,
+      "note": "沈金体験・蒔絵体験(体験教室)の所要時間。1階展示販売コーナー・2階歴史資料館の見学時間の目安は明記なし。"
+    },
+    "schedule": {
+      "openDays": null,
+      "closedNote": "年末年始(12/31〜1/5)は休館(組合事務局の受付時間案内に基づく記載。工芸館自体の開館時間としての明記ではない)",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "秋田県湯沢市にある川連漆器の展示・体験施設で、秋田県漆器工業協同組合が運営しています。1階には800点以上の漆器を扱う展示販売コーナー、2階には800年の歴史を紹介する資料館があります。沈金・蒔絵の加飾技法を体験できる教室もあり、料金は1人2,750円(3人以上時)、所要時間は1時間半、要予約です。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.kawatsura.or.jp/shop/",
+        "https://www.kawatsura.or.jp/outline",
+        "https://www.kawatsura.or.jp/about",
+        "https://www.kawatsura.or.jp/contact"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0064",
+    "name": "月山ワイン山ぶどう研究所",
+    "nameKana": "がっさんわいん やまぶどうけんきゅうじょ",
+    "company": "庄内たがわ農業協同組合",
+    "categoryId": "cat-beverage",
+    "subCategory": "ワイン",
+    "prefectureCode": "06",
+    "city": "鶴岡市",
+    "address": "山形県鶴岡市越中山字名平3-1",
+    "lat": 38.604336,
+    "lng": 139.85849,
+    "geoPrecision": "town",
+    "access": null,
+    "reservation": {
+      "required": null,
+      "methods": null,
+      "note": "2026年4月23日の「売店営業再開のお知らせ」にて、今年から工場見学を不定期開催する旨が案内された(お一人様税込1,000円、11時・14時の2回、30分程度)。予約要否についての記載はない。"
+    },
+    "links": {
+      "official": "https://gassan-wine.com/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": 1000,
+      "childYen": null,
+      "note": "工場見学は1名税込1,000円(11時・14時の2回、30分程度、不定期開催)。売店のワイン試飲は無料(ワインサーバー設置)。"
+    },
+    "features": {
+      "tasting": true,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": 30,
+      "note": null
+    },
+    "schedule": {
+      "openDays": "月・金・土・日(2026年4月24日再開時点の案内。ゴールデンウイーク中5/2〜6は営業)",
+      "closedNote": "火・水・木曜定休。例年12月頃〜3月末頃は冬期休業(過去シーズンの告知に基づく)。工場見学は不定期開催のため実施日は要確認。",
+      "sessionsPerDay": 2
+    },
+    "status": "active",
+    "description": "山形県鶴岡市にある庄内たがわ農業協同組合運営のワイナリーです。売店では無料の試飲サーバーを利用でき、2026年からは有料の工場見学(1名1,000円、11時・14時の2回、約30分)を不定期で開催しています。営業日は月・金・土・日で、冬期は休業します。",
+    "meta": {
+      "sourceUrls": [
+        "https://gassan-wine.com/",
+        "https://gassan-wine.com/?cat=10",
+        "https://gassan-wine.com/?p=537"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0065",
+    "name": "末廣酒造 嘉永蔵",
+    "nameKana": "すえひろしゅぞう かえいぐら",
+    "company": "末廣酒造株式会社",
+    "categoryId": "cat-beverage",
+    "subCategory": "日本酒(酒蔵見学)",
+    "prefectureCode": "07",
+    "city": "会津若松市",
+    "address": "福島県会津若松市日新町12-38",
+    "lat": 37.497765,
+    "lng": 139.923523,
+    "geoPrecision": "banchi",
+    "access": "車:会津若松ICから約15分。電車:JR会津若松駅から市内周遊バス「ハイカラさん」で「七日町中央」バス停下車、徒歩約5分。",
+    "reservation": {
+      "required": "not_needed",
+      "methods": [
+        "phone"
+      ],
+      "note": "個人のお客様は予約不要。団体の場合は要予約。"
+    },
+    "links": {
+      "official": "https://sake-suehiro.co.jp/museum/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": null,
+      "adultYen": null,
+      "childYen": null,
+      "note": "見学料金についての明記は見当たらない。"
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": 30,
+      "note": null
+    },
+    "schedule": {
+      "openDays": "見学時間は3月〜11月が1日6回(10:00/11:00/13:00/14:00/15:00/16:00)、12月〜2月が1日3回(11:00/13:00/15:00)。",
+      "closedNote": "第2水曜日定休。",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "福島県会津若松市にある末廣酒造の酒蔵、嘉永蔵の見学施設です。個人のお客様は予約不要で、所要時間約30分の蔵見学ができます。見学時間は季節により異なり、3月〜11月は1日6回、12月〜2月は1日3回の案内があります。団体での見学は要予約です。定休日は第2水曜日です。",
+    "meta": {
+      "sourceUrls": [
+        "https://sake-suehiro.co.jp/museum/"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0066",
+    "name": "大谷焼窯元 大西陶器",
+    "nameKana": "おおたにやきかまもと おおにしとうき",
+    "company": "合同会社大西陶器",
+    "categoryId": "cat-craft",
+    "subCategory": "陶芸(大谷焼)",
+    "prefectureCode": "36",
+    "city": "鳴門市",
+    "address": "徳島県鳴門市大麻町大谷字東山谷17-2",
+    "lat": 34.169182,
+    "lng": 134.542648,
+    "geoPrecision": "gaiku",
+    "access": "カーナビでご来店の場合、大西陶器の旧工房に案内されることがあるとの注意書きが公式サイトにあり(住所:徳島県鳴門市大麻町大谷字東山谷17-2)。最寄り駅・バスの案内は見当たらない。",
+    "reservation": {
+      "required": null,
+      "methods": [
+        "web"
+      ],
+      "note": "「陶芸体験」予約申し込みフォームから申込み、当方のスケジュール確認後に予約成立可否をメールで案内する仕組み。「予約制」「要予約」等の明記は見当たらない。自動配信メールが届かない場合はTEL:088-689-0414へ問い合わせ案内。"
+    },
+    "links": {
+      "official": "https://onishitoki.jp/course.html",
+      "jalanAffiliate": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3779530&pid=892687128&vc_url=https%3A%2F%2Fwww.jalan.net%2Fkankou%2Fspt_guide000000186941%2Factivity%2Fl000066911%2F",
+      "asoviewAffiliate": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3779530&pid=892687122&vc_url=https%3A%2F%2Fwww.asoview.com%2Fitem%2Factivity%2Fpln3000018483%2F",
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": null,
+      "childYen": null,
+      "note": "体験内容により料金が異なる: 電動ろくろ体験3,630円(税込)/手びねり体験2,640円(税込)/絵付け体験1,540円(税込)。陶芸教室(5回券)は手びねりコース10,000円(+消費税)、電動ろくろコース14,000円(+消費税)、いずれも焼成費別途。単一の入場・見学料金の記載はない。"
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": true,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": null,
+      "note": null
+    },
+    "schedule": {
+      "openDays": "営業時間 AM9:00〜PM17:00",
+      "closedNote": "毎週水曜日定休",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "徳島県鳴門市にある大谷焼窯元、大西陶器の陶芸体験・陶芸教室施設です。手びねり体験、電動ろくろ体験、絵付け体験の3種類があり、料金は1,540円から3,630円(税込)です。作った作品は焼成後、来店受け取りまたは郵送で届けられます。5回券制の陶芸教室も開講しており、定休日は毎週水曜日です。",
+    "meta": {
+      "sourceUrls": [
+        "https://onishitoki.jp/course.html",
+        "https://onishitoki.jp/map.html",
+        "https://onishitoki.jp/profile.html",
+        "https://onishitoki.jp/yoyaku/v_reserve.html"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-28",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 2
+    }
+  },
+  {
+    "id": "fac-0067",
+    "name": "マルキン醤油記念館",
+    "nameKana": "まるきんしょうゆきねんかん",
+    "company": null,
+    "categoryId": "cat-food",
+    "subCategory": "醤油(記念館・工場見学)",
+    "prefectureCode": "37",
+    "city": "小豆郡小豆島町",
+    "address": "香川県小豆郡小豆島町苗羽甲1850",
+    "lat": 34.469658,
+    "lng": 134.320831,
+    "geoPrecision": "town",
+    "access": "オリーブバス坂手線「丸金前」下車すぐ。車:坂手港から約3分、草壁港から約10分、池田港から約20分、土庄港から約30分、福田港から約30分、大部港から約40分。",
+    "reservation": {
+      "required": "not_needed",
+      "methods": null,
+      "note": "個人のお客様はご予約不要(館内の「もろみしぼり体験」案内に基づく)。団体の場合は事前予約が必要。"
+    },
+    "links": {
+      "official": "https://marukin.moritakk.com/kinenkan/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": 500,
+      "childYen": 250,
+      "note": "通常料金: 大人(中学生以上)500円、子供(小学生)250円、幼児無料。団体割引料金: 大人450円、子供200円、幼児無料。2024年4月1日に料金改定。"
+    },
+    "features": {
+      "tasting": true,
+      "souvenir": null,
+      "handsOn": true,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": null,
+      "note": "「もろみしぼり体験」は10時・14時開始。所要時間の明記はない。"
+    },
+    "schedule": {
+      "openDays": "9:00開館〜16:00閉館(2026年7月20日〜8月31日、10月16日〜11月30日は9:00開館〜16:30閉館)",
+      "closedNote": "2026年の休館日: 1月1日、1月13日、2月10日、2月24日、6月9日、6月16日。館内メンテナンス・災害等により不定休となる場合がある。",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "香川県小豆郡小豆島町にある丸金醤油の記念館で、しょうゆ造りの歴史や製造方法を、明治時代に使われていた道具やパネルで紹介しています。10時・14時には、実際に工場で使う「もろみ」を小型しぼり機で搾る体験ができ、搾りたてのしょうゆを試食できます。物産館では小豆島の特産品も販売しています。入館料は大人500円、子供(小学生)250円です。",
+    "meta": {
+      "sourceUrls": [
+        "https://marukin.moritakk.com/kinenkan/",
+        "https://marukin.moritakk.com/history/"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0068",
+    "name": "タオル美術館",
+    "nameKana": "たおるびじゅつかん",
+    "company": null,
+    "categoryId": "cat-craft",
+    "subCategory": "タオル(美術館・製造工程展示)",
+    "prefectureCode": "38",
+    "city": "今治市",
+    "address": "愛媛県今治市朝倉上甲2930",
+    "lat": 33.973869,
+    "lng": 133.005661,
+    "geoPrecision": "town",
+    "access": null,
+    "reservation": {
+      "required": null,
+      "methods": null,
+      "note": "団体様(入場・食事)の予約申込書あり。個人来館者の予約要否についての明記は見当たらない。"
+    },
+    "links": {
+      "official": "https://www.towelmuseum.com/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": 1000,
+      "childYen": null,
+      "note": "大人1,000円、中高生800円、小学生600円(いずれも1名様料金)、小学生未満は無料。15名以上・30名以上の団体割引あり。障がい者割引500円(介添人1名500円)、高齢者割引700円(65歳以上)。ショッピング・お食事のみの利用は入館料不要。"
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": true
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": null,
+      "note": null
+    },
+    "schedule": {
+      "openDays": "9:30〜18:00(通年。ギャラリー見学は閉館30分前まで)",
+      "closedNote": "2027年の休館日: 1月14日(木)、1月19日(火)。",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "愛媛県今治市にあるタオル専門の美術館です。館内には梳綿機や織機などの実物が展示され、綿花からタオルが織り上がるまでの製造工程を紹介するコーナーがあります。入館料は大人1,000円、中高生800円、小学生600円で、小学生未満は無料です。車いすやベビーカーの無料貸し出し、無料駐車場もあります。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.towelmuseum.com/",
+        "https://www.towelmuseum.com/information/",
+        "https://www.towelmuseum.com/museumacademy/"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0069",
+    "name": "酔鯨酒造 土佐蔵",
+    "nameKana": "すいげいしゅぞう とさぐら",
+    "company": "酔鯨酒造株式会社",
+    "categoryId": "cat-beverage",
+    "subCategory": "日本酒(酒蔵見学)",
+    "prefectureCode": "39",
+    "city": "土佐市",
+    "address": "高知県土佐市甲原2001番地1",
+    "lat": 33.49025,
+    "lng": 133.365997,
+    "geoPrecision": "town",
+    "access": "車:高知龍馬空港から約50分、高知駅から約40分、土佐PAから約10分。バス:「甲原船戸」から徒歩約15分。無料駐車場あり。",
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "web"
+      ],
+      "note": "「蔵見学申し込みフォーム」(外部予約サイト)より予約必須(1枠、最大10名まで受付)。ツアー会社は電話予約が必要。"
+    },
+    "links": {
+      "official": "https://suigei.co.jp/brewery/tour",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": 1000,
+      "childYen": null,
+      "note": "1名につき1,000円(税込)。無料試飲2杯・オリジナルお猪口プレゼントを含む。事前お申し込み見学者以外の一般来場者の試飲は有料。"
+    },
+    "features": {
+      "tasting": true,
+      "souvenir": true,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": 50,
+      "note": null
+    },
+    "schedule": {
+      "openDays": "開催日: 月・水・木・金・土・日。見学時間: 10時30分〜11時20分/12時30分〜13時20分/15時〜15時50分の3回。",
+      "closedNote": "火曜日は開催日に含まれない。醸造期間は10月〜5月で、それ以外の期間は仕込み工程が行われていない旨の注記あり。",
+      "sessionsPerDay": 3
+    },
+    "status": "active",
+    "description": "高知県土佐市にある酔鯨酒造の酒蔵、土佐蔵の見学ツアーです。所要時間は約50分で、精米から仕込み、発酵、搾りまでの酒造り工程を実際に案内してもらえます。見学後には無料の試飲(2杯)があり、使用したオリジナルお猪口はお持ち帰りできます。参加費は1名1,000円(税込)で、事前予約が必須です。",
+    "meta": {
+      "sourceUrls": [
+        "https://suigei.co.jp/brewery/tour"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0070",
+    "name": "アヲハタ ジャムデッキ",
+    "nameKana": "あをはた じゃむでっき",
+    "company": null,
+    "categoryId": "cat-food",
+    "subCategory": "ジャム(体験施設)",
+    "prefectureCode": "34",
+    "city": "竹原市",
+    "address": "広島県竹原市忠海中町1-2-43",
+    "lat": 34.334942,
+    "lng": 132.990417,
+    "geoPrecision": "banchi",
+    "access": "電車:JR呉線「忠海駅」から徒歩約5分。車:広島方面から山陽自動車道 河内ICより約40分、岡山方面から山陽自動車道 本郷ICより約30分、広島空港から約35分。",
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "web"
+      ],
+      "note": "「ジャムづくり体験&工場見学コース」はWEBからの事前予約が必須。予約なしでも営業時間内は入館可能(ショップ・カフェ利用、館内展示物の見学のみ)。工場見学のみ(団体)は別途予約枠あり。"
+    },
+    "links": {
+      "official": "https://www.aohata.co.jp/experience/jamdeck.html",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": 1000,
+      "childYen": null,
+      "note": "ジャムづくり体験&工場見学コース:1セット1,000円(200g入りビン4本、税込)。エプロン貸出150円(有料)。"
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": true,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": "中学生以上(小学生は保護者と2人1組で体験可能、未就学児不可)",
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": 150,
+      "note": "概要説明20分+ジャムづくり体験90分+工場見学40分の内訳。"
+    },
+    "schedule": {
+      "openDays": "火曜日〜土曜日(9:30〜16:30)",
+      "closedNote": "日曜日・月曜日・祝日・年末年始・その他指定休館日あり",
+      "sessionsPerDay": 2
+    },
+    "status": "active",
+    "description": "広島県竹原市にあるアヲハタのジャム体験・見学施設、アヲハタジャムデッキです。ジャムづくり体験と工場見学がセットになったコース(1セット1,000円、税込)があり、いちごジャム・オレンジマーマレード・ブルーベリージャムの中から1種類を作れます。所要時間は約2時間30分で、事前のWeb予約が必要です。予約なしでもショップや館内展示の見学は可能です。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.aohata.co.jp/experience/jamdeck.html"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0071",
+    "name": "Wood Egg お好み焼館",
+    "nameKana": "うっどえっぐ おこのみやきかん",
+    "company": "オタフクソース株式会社",
+    "categoryId": "cat-food",
+    "subCategory": "お好み焼ソース(工場見学・ミュージアム)",
+    "prefectureCode": "34",
+    "city": "広島市西区",
+    "address": "広島県広島市西区商工センター7丁目4-5",
+    "lat": 34.366737,
+    "lng": 132.385635,
+    "geoPrecision": "banchi",
+    "access": "JR広島駅からJR山陽本線で新井口駅(約15分)、徒歩3分でアルパークタクシー乗り場からタクシー約5分、または広電宮島線「商工センター入口」経由で井口電停から徒歩10分。JR広島駅から広島バスで「商工センター7丁目」下車徒歩2分(約50分)。車:広島高速3号線 商工センター出口から約5分、山陽自動車道 五日市ICから約15分、廿日市ICから約25分。",
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "web",
+        "phone"
+      ],
+      "note": "「工場&おこのミュージアム見学」コースは完全予約制(WEBまたは電話082-277-7116)。定員10名以下は予約不要の「おこのミュージアム自由見学」も利用可能。21名以上の団体は要電話問い合わせ。"
+    },
+    "links": {
+      "official": "https://www.otafuku.co.jp/visit/wood-egg/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "free",
+      "adultYen": null,
+      "childYen": null,
+      "note": "「工場&おこのミュージアム見学」「おこのミュージアム見学」「おこのミュージアム自由見学」いずれも参加費無料。別途、団体向けの有料お好み焼体験コース(1人1,980円、税込、3時間)もある。"
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": "小学1年生以上(小学2年生以下は保護者2人につき1人同伴)",
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": 90,
+      "note": "「工場&おこのミュージアム見学」コースの所要時間。おこのミュージアムのみの見学は1時間、自由見学は時間制限なし(9:00〜17:00、入場16:30まで)。"
+    },
+    "schedule": {
+      "openDays": "月〜金曜日(工場&ミュージアム見学は10:00〜11:30・13:15〜14:45の2回。自由見学は9:00〜17:00、入場16:30まで)",
+      "closedNote": "土日祝日、年末年始、お盆、10月1日が休館日。",
+      "sessionsPerDay": 2
+    },
+    "status": "active",
+    "description": "広島県広島市西区にあるオタフクソースのお好み焼情報発信拠点、Wood Egg お好み焼館です。工場ではソースのボトル詰めから出荷までの様子を見学でき、あわせてお好み焼の歴史や文化を紹介する「おこのミュージアム」も見学できます。参加費は無料で、10名以下なら予約不要の自由見学も可能です。対象は小学1年生以上です。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.otafuku.co.jp/visit/wood-egg/",
+        "https://www.otafuku.co.jp/visit/factory-museum/"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0072",
+    "name": "大山乳業",
+    "nameKana": "だいせんにゅうぎょう",
+    "company": "大山乳業農業協同組合",
+    "categoryId": "cat-food",
+    "subCategory": "乳製品(工場見学)",
+    "prefectureCode": "31",
+    "city": "東伯郡琴浦町",
+    "address": "鳥取県東伯郡琴浦町大字保37-1",
+    "lat": 35.496559,
+    "lng": 133.689392,
+    "geoPrecision": "gaiku",
+    "access": "「カウィーのみるく館」を目印にお越しください。見学会場は「大山まきばみるくの里」とは別の施設なので注意。",
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "web",
+        "phone"
+      ],
+      "note": "見学の3日前までに要予約(Web予約フォームまたは電話)。当日予約不可。11名以上の団体等は電話予約のみ。"
+    },
+    "links": {
+      "official": "https://dainyu.or.jp/know-more/factory-tour/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "free",
+      "adultYen": null,
+      "childYen": null,
+      "note": null
+    },
+    "features": {
+      "tasting": true,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": 60,
+      "note": "見学後は直売所「カウィーのみるく館」を利用可能(所要時間には含まれない)。"
+    },
+    "schedule": {
+      "openDays": "月・火・水・金・土曜日",
+      "closedNote": "木曜日・日曜日は定休。",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "鳥取県東伯郡琴浦町にある大山乳業農業協同組合の工場見学です。見学料は無料ですが、3日前までの事前予約が必須です。所要時間は約60分で、見学の案内中に試飲・試食があります。見学後には直売所「カウィーのみるく館」で使える割引券がもらえ、そのまま買い物も楽しめます。定休日は木曜日と日曜日です。",
+    "meta": {
+      "sourceUrls": [
+        "https://dainyu.or.jp/know-more/factory-tour/"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0073",
+    "name": "キリンビール岡山工場",
+    "nameKana": "きりんびーるおかやまこうじょう",
+    "company": null,
+    "categoryId": "cat-beverage",
+    "subCategory": "ビール",
+    "prefectureCode": "33",
+    "city": "岡山市東区",
+    "address": "岡山県岡山市東区瀬戸町万富678",
+    "lat": 34.754631,
+    "lng": 134.07811,
+    "geoPrecision": "banchi",
+    "access": "JR山陽本線 岡山駅から万富駅まで約25分、万富駅より徒歩約15分。車:山陽自動車道「山陽IC」から約15分、美作岡山道路「瀬戸IC」から約5分。",
+    "reservation": {
+      "required": null,
+      "methods": null,
+      "note": "予約ページ(外部サイト)への案内があるが、「予約制」「要予約」等の明記は見当たらない。"
+    },
+    "links": {
+      "official": "https://www.kirin.co.jp/experience/factory/okayama/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": 500,
+      "childYen": null,
+      "note": "「キリン一番搾りおいしさ実感ツアー」所要時間約75分:9月末までの催行分は1名500円(税込)、10月1日以降の催行分は1名1,000円(税込)。20歳以上限定の「キリン一番搾りエクスペリエンス」(所要時間約90分、定員20名)は1名3,000円で別コース。"
+    },
+    "features": {
+      "tasting": true,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": 75,
+      "note": "「キリン一番搾りおいしさ実感ツアー」の所要時間。20歳以上限定の別コース「キリン一番搾りエクスペリエンス」は約90分。"
+    },
+    "schedule": {
+      "openDays": null,
+      "closedNote": "月曜・火曜日休館(祝日の場合は営業/月曜・火曜日とも祝日の場合は翌水曜日のみ休館)、年末年始休館・臨時休館あり。",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "岡山県岡山市東区にあるキリンビール岡山工場の見学ツアーです。「キリン一番搾りおいしさ実感ツアー」では所要時間約75分でビールの製造工程を案内してもらえ、工場直送の一番搾りやソフトドリンクの試飲があります。料金は9月末までの催行分が1名500円、10月1日以降は1名1,000円です。20歳以上限定のプレミアムツアーも別途用意されています。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.kirin.co.jp/experience/factory/okayama/",
+        "https://www.kirin.co.jp/experience/factory/okayama/access/"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0074",
+    "name": "JFEスチール西日本製鉄所 倉敷地区",
+    "nameKana": "じぇいえふいーすちーる にしにほんせいてつしょ くらしきちく",
+    "company": "JFEスチール株式会社",
+    "categoryId": "cat-industry",
+    "subCategory": "製鉄(工場見学)",
+    "prefectureCode": "33",
+    "city": "倉敷市",
+    "address": "岡山県倉敷市水島川崎通1丁目",
+    "lat": 34.507473,
+    "lng": 133.714844,
+    "geoPrecision": "town",
+    "access": "無料バス運行(新倉敷駅北口発着、季節見学会開催時のみ)。車:当製鉄所東側 南門から入場し、見学センター西側駐車場を利用。",
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "phone"
+      ],
+      "note": "電話予約(見学センター086-448-1300、平日9:00〜16:30受付)。団体様(小学生以上かつ10名以上)は随時受付、個人様(小学生以上)は春・夏・冬休みに合わせて開催する季節見学会のみ参加可能。"
+    },
+    "links": {
+      "official": "https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/winter_kurashiki.html",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": null,
+      "adultYen": null,
+      "childYen": null,
+      "note": "見学案内ページに料金の記載が見当たらない。"
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": "原則小学生以上(小学生は保護者同伴)",
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": null,
+      "note": "季節見学会は9:30〜11:30等の枠内で概要説明→工場見学→質疑応答を実施(所要時間の明記なし)。"
+    },
+    "schedule": {
+      "openDays": "個人参加は学校の長期休業(春・夏・冬休み)に合わせて開催する季節見学会のみ。2026年夏休み分は8月12日・13日・14日・17日に実施(既に定員に達し募集終了)。団体様(小学生以上かつ10名以上)は平日(月〜金)に随時受付。",
+      "closedNote": "個人が参加できる通年の随時見学枠はない。団体受付は土・日・祝日休み。",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "岡山県倉敷市にあるJFEスチール西日本製鉄所倉敷地区の工場見学です。団体様(小学生以上かつ10名以上)は平日随時受付していますが、個人様(小学生以上)が参加できるのは春・夏・冬休みに合わせて開催する季節見学会のみです。見学は電話予約制で、概要説明・工場見学・質疑応答という流れで実施されます。工場内は通路を約900m歩きます。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/kurashiki.html",
+        "https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/summer_kurashiki.html",
+        "https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/winter_kurashiki.html",
+        "https://www.jfe-steel.co.jp/company/map/jfe/s_kura.html"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0075",
+    "name": "島根ワイナリー ワイン醸造館",
+    "nameKana": "しまねわいなりー わいんじょうぞうかん",
+    "company": "株式会社島根ワイナリー",
+    "categoryId": "cat-beverage",
+    "subCategory": "ワイン(工場見学)",
+    "prefectureCode": "32",
+    "city": "出雲市",
+    "address": "島根県出雲市大社町菱根264-2",
+    "lat": 35.395527,
+    "lng": 132.711395,
+    "geoPrecision": "gaiku",
+    "access": "一畑電車「浜山公園北口駅」から徒歩約15分。出雲空港から出雲市駅まで連絡バス約25分、出雲市駅から路線バスあり。車:山陰道 出雲ICから国道9号線経由。",
+    "reservation": {
+      "required": null,
+      "methods": null,
+      "note": "見学ページに予約に関する記載が一切ない。予約不要である可能性はあるが明示的な記載がないためnullとする。"
+    },
+    "links": {
+      "official": "https://www.shimane-winery.jp/facilities/wine/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "free",
+      "adultYen": null,
+      "childYen": null,
+      "note": null
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": null,
+      "note": null
+    },
+    "schedule": {
+      "openDays": "10:00〜16:30",
+      "closedNote": "年中無休",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "島根県出雲市にある島根ワイナリーの製造見学施設、ワイン醸造館です。屋外・屋内合わせて99基のタンクや、仕込み・瓶詰め用の新鋭機械を備えた工場内で、ワインの製造工程を無料で見学できます。営業時間は10:00〜16:30で年中無休です。同じ敷地内には無料試飲ができる「バッカス」など、ほかの見学・購入施設もあります。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.shimane-winery.jp/facilities/wine/",
+        "https://www.shimane-winery.jp/company/",
+        "https://www.shimane-winery.jp/access/"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0076",
+    "name": "獺祭ストア 本社蔵",
+    "nameKana": "だっさいすとあ ほんしゃぐら",
+    "company": "株式会社獺祭",
+    "categoryId": "cat-beverage",
+    "subCategory": "日本酒(酒蔵見学)",
+    "prefectureCode": "35",
+    "city": "岩国市",
+    "address": "山口県岩国市周東町獺越2128",
+    "lat": 34.123432,
+    "lng": 131.994934,
+    "geoPrecision": "town",
+    "access": null,
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "web"
+      ],
+      "note": "予約制。即時予約カレンダーで確定。受付開始は見学日の2ヶ月前0時0分、締切は見学日の1日前。キャンセルは見学日の2日前まで。旅行会社・団体からの申込不可(個人向け、1回最大5名までの少人数制)。"
+    },
+    "links": {
+      "official": "https://dassai.com/tour/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": 1000,
+      "childYen": null,
+      "note": "見学代1,000円(白衣代・お土産込み)。有料試飲(希望者のみ)500円は別料金。運転者は試飲不可。"
+    },
+    "features": {
+      "tasting": false,
+      "souvenir": true,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": "中学生以上",
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": 60,
+      "note": null
+    },
+    "schedule": {
+      "openDays": "毎日実施(10時・14時の2回)",
+      "closedNote": "年末年始は変更・休止の場合あり(要電話確認)。",
+      "sessionsPerDay": 2
+    },
+    "status": "active",
+    "description": "山口県岩国市にある獺祭ストア本社蔵での酒蔵見学ツアーです。所要時間は約1時間で、実際に酒蔵に入り酒造りの工程を間近で見学できます。参加費は1名1,000円(白衣代・お土産込み)で、希望者は500円の有料試飲も追加できます。1回最大5名までの少人数制で、中学生以上が対象、予約が必須です。",
+    "meta": {
+      "sourceUrls": [
+        "https://dassai.com/tour/",
+        "https://dassai.com/corp/",
+        "https://dassai.com/store/yamaguchi.html"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0077",
+    "name": "サッポロビール九州日田工場",
+    "nameKana": "さっぽろびーるきゅうしゅうひたこうじょう",
+    "company": null,
+    "categoryId": "cat-beverage",
+    "subCategory": "ビール",
+    "prefectureCode": "44",
+    "city": "日田市",
+    "address": "大分県日田市大字高瀬6979",
+    "lat": 33.292564,
+    "lng": 130.945038,
+    "geoPrecision": "banchi",
+    "access": "JR久大本線「日田」駅よりタクシーで約10分。日田バス(西鉄バス)「日田バスセンター」よりタクシーで約10分。車:九州自動車道→鳥栖JCT→大分自動車道→日田ICを出て右折→国道212号線を大分・湯布院方面に約6km(日田ICより約10分)。",
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "web",
+        "phone"
+      ],
+      "note": "WEB予約はご希望日の4週間前午前8時より前日15時まで受付。電話予約もご希望日の4週間前より受付。同一のお客様による複数回の予約は不可。"
+    },
+    "links": {
+      "official": "https://www.sapporobeer.jp/brewery/kyushuhita/reservation/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": 1000,
+      "childYen": 500,
+      "note": "3コースあり、いずれも有料。「サッポロシアター」(映像+試飲1杯、約40分)は大人500円・中学生〜20歳未満300円・小学生以下無料。「工場見学ツアー」(工場見学+試飲2杯、約60分)は大人1,000円・中学生〜20歳未満500円・小学生以下無料。「黒ラベル THE PERFECT TOUR」(約90分、月1回開催)は大人2,000円で20歳未満・乳幼児連れは参加不可。いずれもおつまみとオリジナルグラスのお土産付き。adultYen/childYenは「工場見学ツアー」の値。"
+    },
+    "features": {
+      "tasting": true,
+      "souvenir": true,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": 60,
+      "note": "「工場見学ツアー」の所要時間(シアター約10分+工場見学約20分+試飲約30分)。「サッポロシアター」は約40分、「黒ラベル THE PERFECT TOUR」は約90分。"
+    },
+    "schedule": {
+      "openDays": "「工場見学ツアー」は毎週水曜日・金曜日開催。「サッポロシアター」は毎日(休館日を除く)開催。",
+      "closedNote": "毎週月曜日・火曜日休館(祝日の場合は翌日・翌々日)、年末年始、臨時休館日あり。",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "大分県日田市にあるサッポロビール九州日田工場の見学ツアーです。ビールづくりの工程をブランドコミュニケーターが解説する「工場見学ツアー」(約60分、大人1,000円)のほか、映像中心の「サッポロシアター」(約40分、大人500円)、月1回のプレミアムツアーがあります。いずれも試飲とおつまみ、オリジナルグラスのお土産が付き、完全予約制です。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.sapporobeer.jp/brewery/kyushuhita/reservation/",
+        "https://www.sapporobeer.jp/brewery/kyushuhita/",
+        "https://www.sapporobeer.jp/brewery/kyushuhita/access/"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0078",
+    "name": "ヘリオス酒造",
+    "nameKana": "へりおすしゅぞう",
+    "company": "ヘリオス酒造株式会社",
+    "categoryId": "cat-beverage",
+    "subCategory": "泡盛・ラム・ウイスキー(酒蔵見学)",
+    "prefectureCode": "47",
+    "city": "名護市",
+    "address": "沖縄県名護市字許田405",
+    "lat": 26.538204,
+    "lng": 127.962738,
+    "geoPrecision": "banchi",
+    "access": "路線バス:那覇バスターミナルから系統20番「名護バスターミナル行き」で「湖辺底」バス停下車、徒歩約5分。車:沖縄自動車道 許田料金所付近から看板に従って進入(詳細ルートは公式サイト参照)。美ら海水族館から車で約40分、ナゴパイナップルパークから車で約20分、ジャングリアから車で約30分。",
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "web",
+        "phone"
+      ],
+      "note": "完全予約制。電話受付(9時〜17時)またはWeb24時間受付。前日・当日の予約は電話のみ受付。"
+    },
+    "links": {
+      "official": "https://tour.helios-shop.jp/",
+      "jalanAffiliate": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3779530&pid=892687128&vc_url=https%3A%2F%2Fwww.jalan.net%2Fkankou%2Fspt_47209cc3340044976%2Factivity%2Fl00006DB0C%2F",
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "paid",
+      "adultYen": 500,
+      "childYen": null,
+      "note": "見学料金500円(税込)/人。お土産つき(2024年9月1日より有料化)。"
+    },
+    "features": {
+      "tasting": true,
+      "souvenir": true,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": "保護者同伴であれば子供も見学可",
+      "adultOnly": false
+    },
+    "duration": {
+      "minutes": 45,
+      "note": "受付→ギャラリーでの上映会(約10分、泡盛の歴史・工程説明)→二の蔵見学(水曜を除く)→試飲体験の流れ。"
+    },
+    "schedule": {
+      "openDays": "1日2回開催(①11時〜 ②15時〜)",
+      "closedNote": "毎週水曜日は酒蔵見学定休日(古酒蔵ショップ/ギャラリーは営業)。",
+      "sessionsPerDay": 2
+    },
+    "status": "active",
+    "description": "沖縄県名護市にあるヘリオス酒造の酒蔵見学です。泡盛・ラム・ウイスキーの原酒が眠る貯蔵庫を巡り、蒸留所の歴史や製造工程を学べます。所要時間は約45分で、見学後には試飲体験もあります。参加費は1名500円(税込)でお土産付き、完全予約制です。毎週水曜日は見学が定休日ですが、併設のショップは営業しています。",
+    "meta": {
+      "sourceUrls": [
+        "https://tour.helios-shop.jp/",
+        "https://www.helios-syuzo.co.jp/company"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-31",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 2
+    }
+  },
+  {
+    "id": "fac-0079",
+    "name": "肥前屋",
+    "nameKana": "ひぜんや",
+    "company": "合資会社光武酒造場",
+    "categoryId": "cat-beverage",
+    "subCategory": "日本酒(酒蔵見学)",
+    "prefectureCode": "41",
+    "city": "鹿島市",
+    "address": "佐賀県鹿島市浜町乙2761番地2",
+    "lat": 33.092316,
+    "lng": 130.117828,
+    "geoPrecision": "gaiku",
+    "access": null,
+    "reservation": {
+      "required": null,
+      "methods": null,
+      "note": "3コースのうち「お気軽散策コース」は予約不要・無料。「KEG・有料試飲無料酒蔵見学コース」(1,500円+税10%)と「街並みガイドコース」(2,500円+税10%)はWeb要予約。3コースで予約要否・料金が異なるため単一のrequiredに集約できない。"
+    },
+    "links": {
+      "official": "https://www.hizennya.com/kanko/kengaku.html",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": null,
+      "adultYen": null,
+      "childYen": null,
+      "note": "3つの見学コースが併存し、価格帯が0円〜2,500円+税とばらつくため単一のtypeに確定できない。【お気軽散策コース】予約不要・無料・所要30分程度・ガイドなし・無料試飲あり。【KEG・有料試飲無料酒蔵見学コース】要予約・1名1,500円(+税10%)・所要60分・スタッフ案内・KEG1杯とおつまみ付き。【街並みガイドコース】要予約・1名2,500円(+税10%)・所要90分・ガイド付き街歩き・270ml酒1本プレゼント。"
+    },
+    "features": {
+      "tasting": true,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": null,
+      "note": "コースにより30分・60分・90分と異なる。"
+    },
+    "schedule": {
+      "openDays": "9:30〜17:00",
+      "closedNote": "9月の店休日:10日(木)・15日(火)・24日(木)(月替わりで更新される不定休)。",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "佐賀県鹿島市にある観光酒蔵肥前屋(運営:合資会社光武酒造場)の見学施設です。予約不要・無料で街並みと蔵を自分のペースで巡れる「お気軽散策コース」のほか、要予約・有料でスタッフやガイドが案内する2つのコース(1,500円・2,500円、いずれも+税10%)があります。どのコースでも無料試飲を楽しめます。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.hizennya.com/kanko/kengaku.html",
+        "https://www.hizennya.com/kanko/index.html",
+        "https://www.hizennya.com/kanko/access.html",
+        "https://www.hizennya.com/kanko/reservation.html"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0080",
+    "name": "壱岐の蔵酒造",
+    "nameKana": "いきのくらしゅぞう",
+    "company": "壱岐の蔵酒造株式会社",
+    "categoryId": "cat-beverage",
+    "subCategory": "麦焼酎(酒蔵見学)",
+    "prefectureCode": "42",
+    "city": "壱岐市",
+    "address": "長崎県壱岐市芦辺町湯岳本村触520",
+    "lat": 33.774673,
+    "lng": 129.739807,
+    "geoPrecision": "town",
+    "access": "フェリー:博多港より約150分、壱岐の蔵酒造まで車で約10分。高速船(水中翼船):博多港より約60分、壱岐の蔵酒造まで車で約10分。飛行機:長崎空港より約50分、壱岐の蔵酒造まで車で約10分。",
+    "reservation": {
+      "required": "recommended",
+      "methods": [
+        "phone"
+      ],
+      "note": "電話予約(お電話にてご一報下さい)。当日ご予約なしのお客様はお断りする場合がある旨の記載があり、「予約制」の明言はないため recommended とした。"
+    },
+    "links": {
+      "official": "https://ikinokura.co.jp/visit",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "free",
+      "adultYen": null,
+      "childYen": null,
+      "note": "無料蔵見学のみが現在表示されている(見学料無料、試飲も含む)。有料蔵見学の案内はHTML上コメントアウトされており非表示のため、値の根拠にしていない(ルール20)。"
+    },
+    "features": {
+      "tasting": true,
+      "souvenir": null,
+      "handsOn": null,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": 40,
+      "note": null
+    },
+    "schedule": {
+      "openDays": "見学可能時間 9:00〜12:00、13:00〜16:00(12:00〜13:00は昼休み)",
+      "closedNote": "夏季休業(8月お盆期間)・年末年始",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "長崎県壱岐市にある壱岐の蔵酒造の無料蔵見学です。所要時間は約40分で、見学料には試飲も含まれます。見学は電話予約が推奨されており、当日予約なしの場合は案内をお断りする場合があります。運転される方の飲酒はできません。駐車場ありです。",
+    "meta": {
+      "sourceUrls": [
+        "https://ikinokura.co.jp/visit",
+        "https://ikinokura.co.jp/"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0081",
+    "name": "旭化成延岡展示センター",
+    "nameKana": "あさひかせいのべおかてんじせんたー",
+    "company": null,
+    "categoryId": "cat-industry",
+    "subCategory": "化学・素材(企業展示施設)",
+    "prefectureCode": "45",
+    "city": "延岡市",
+    "address": "宮崎県延岡市旭町六丁目4100番地",
+    "lat": 32.570305,
+    "lng": 131.673691,
+    "geoPrecision": "banchi",
+    "access": null,
+    "reservation": {
+      "required": "required",
+      "methods": [
+        "web"
+      ],
+      "note": "「ご見学をご希望の方は、下記、予約システムより申請ください」と明記。30名/1組の人数制限あり、重複予約不可。電話予約は受け付けていない。"
+    },
+    "links": {
+      "official": "https://www.asahi-kasei.com/jp/sustainability/social/community/nobeoka/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": null,
+      "adultYen": null,
+      "childYen": null,
+      "note": "ページ本文に料金の記載が見当たらない。"
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": true,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": null,
+      "note": null
+    },
+    "schedule": {
+      "openDays": "月〜金曜日 9:00〜12:00、13:00〜16:00",
+      "closedNote": "土曜・日曜、祝祭日、お盆、年末年始、その他",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "宮崎県延岡市にある旭化成グループの企業展示施設、延岡展示センターです。旭化成グループの歴史や経営全体の姿、延岡・日向地区の事業活動と地域社会との関係などを紹介しており、製品にじかに触れながら自由に見学できます。無料のタブレット貸出で製品紹介動画も見られます。見学には予約システムからの事前申請が必要です。",
+    "meta": {
+      "sourceUrls": [
+        "https://www.asahi-kasei.com/jp/sustainability/social/community/nobeoka/"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
+  },
+  {
+    "id": "fac-0082",
+    "name": "ヤマハ発動機 コミュニケーションプラザ",
+    "nameKana": "やまははつどうき こみゅにけーしょんぷらざ",
+    "company": "ヤマハ発動機株式会社",
+    "categoryId": "cat-vehicle",
+    "subCategory": "オートバイ・モビリティ(企業ショールーム)",
+    "prefectureCode": "22",
+    "city": "磐田市",
+    "address": "静岡県磐田市新貝2500",
+    "lat": 34.723106,
+    "lng": 137.877701,
+    "geoPrecision": "banchi",
+    "access": "電車:JR御厨駅より徒歩約15分(約1.2km)またはタクシーで約5分。JR磐田駅よりタクシーで約10分、または磐田駅前バスターミナル1番のりば遠鉄バス「城之崎経由磐田営業所」行きで「ヤマハ発動機前」下車。車:浜松ICより約10km、磐田ICより約5km、袋井ICより約6.5km、磐田バイパス岩井ICより約2km。",
+    "reservation": {
+      "required": "not_needed",
+      "methods": null,
+      "note": "10名以下の来館は予約不要。11名以上の団体は1週間以上前の要予約。学校団体(小学生〜大学生)の館内見学・モーターサイクル組立工場見学は別途申込みが必要で、現在工場見学は小・中学校のみ実施。"
+    },
+    "links": {
+      "official": "https://global.yamaha-motor.com/jp/showroom/cp/info/",
+      "jalanAffiliate": null,
+      "asoviewAffiliate": null,
+      "rakutenTravelHotel": null
+    },
+    "fee": {
+      "type": "free",
+      "adultYen": null,
+      "childYen": null,
+      "note": null
+    },
+    "features": {
+      "tasting": null,
+      "souvenir": null,
+      "handsOn": true,
+      "indoorOnly": null,
+      "strollerOk": null
+    },
+    "targetAge": {
+      "minAge": null,
+      "recommendedAge": null,
+      "adultOnly": null
+    },
+    "duration": {
+      "minutes": null,
+      "note": "学校団体の見学は所要時間約1時間(工場見学を含む場合は1時間半〜2時間)。個人来館は自由見学のため所要時間の目安なし。"
+    },
+    "schedule": {
+      "openDays": "開館日A(ヤマハ発動機本社の稼働日に準じる平日など)9:00〜17:00。開館日B(主に毎月第2・第4土曜日と翌日曜日)10:00〜17:00。",
+      "closedNote": "上記以外の土日祝日等は休館(詳細はカレンダーで確認)。状況により予告なく日程変更の場合あり。",
+      "sessionsPerDay": null
+    },
+    "status": "active",
+    "description": "静岡県磐田市にあるヤマハ発動機の企業ショールーム、コミュニケーションプラザです。入館は無料で、10名以下なら予約不要で見学できます。館内にはシミュレーターや跨り可能な展示車両があり、電動アシスト自転車や電動車いすの試乗体験もできます。11名以上の団体や学校関係の見学は事前予約が必要です。",
+    "meta": {
+      "sourceUrls": [
+        "https://global.yamaha-motor.com/jp/showroom/cp/info/",
+        "https://global.yamaha-motor.com/jp/profile/map/018/"
+      ],
+      "createdAt": "2026-08-20",
+      "updatedAt": "2026-08-20",
+      "lastCheckedAt": "2026-08-20",
+      "dataVersion": 1
+    }
   }
 ]
