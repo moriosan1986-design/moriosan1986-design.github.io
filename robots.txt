@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://moriosan1986-design.github.io/kengaku-mikke/spots/sitemap.xml
