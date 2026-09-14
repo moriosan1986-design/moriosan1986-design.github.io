@@ -84,9 +84,9 @@
 
       <a class="btn btn-secondary" id="app-cta" href="${o(oe)}" target="_blank" rel="noopener">25問のじっくり診断はアプリで</a>
 
-      <button type="button" class="btn btn-secondary" id="back-to-top">もう一度診断する</button>
+      <a class="btn btn-secondary" href="../../license/">ほかの資格も見てみる</a>
 
-      <footer class="ad-disclosure">本サイトはアフィリエイト広告を利用しています</footer>
+      <button type="button" class="btn btn-secondary" id="back-to-top">もう一度診断する</button>
     </main>
   `}const fe={primary:"#3BA99C",primaryDark:"#2F8A80",primaryLight:"#D9F0EC",cream:"#FBF6EC",creamDark:"#F3EAD7",white:"#FFFFFF",text:"#2E2A24",textMuted:"#6B6459",border:"#E4DCC9",accent:"#4FBEBD",accentText:"#4A9998",gradientTop:"#EAF7F7",gradientBottom:"#FFF8EA",heading:"#3C4A4A",bodyMuted:"#6C8584",captionMuted:"#7A9190",faintMuted:"#9AB0AF",highlightBadgeBg:"#FFB27A",surpriseCardBg:"#FFF8EA",surpriseBadgeBg:"#FFEFC9",surpriseBadgeText:"#B08A3E",surpriseBorder:"#D9B86B",confettiA:"#FFC98B",confettiB:"#4FBEBD",confettiC:"#FF9E9E"},me={sm:16,md:20,lg:24,pill:999},he={xs:4,sm:8,md:12,lg:16,xl:24,xxl:32},I={colors:fe,radius:me,spacing:he};function L(e){return e.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase()}function ge(){const e=document.documentElement.style;for(const[t,i]of Object.entries(I.colors))e.setProperty(`--color-${L(t)}`,i);for(const[t,i]of Object.entries(I.radius))e.setProperty(`--radius-${L(t)}`,`${i}px`);for(const[t,i]of Object.entries(I.spacing))e.setProperty(`--spacing-${L(t)}`,`${i}px`)}ge();const S=K.filter(e=>e.quick);function ye(){const e=window.location.pathname.match(/\/r\/([^/]+)\/?$/),t=e==null?void 0:e[1];if(t&&x.some(s=>s.id===t))return{screen:"result",typeId:t};const i=window.location.pathname.match(/\/license\/([^/]+)\/?$/),a=i==null?void 0:i[1];return a&&F.some(s=>s.id===a)?{screen:"license",licenseId:a}:/\/license\/?$/.test(window.location.pathname)?{screen:"license-list"}:{screen:"top"}}let h=ye();const b=document.querySelector("#app");function E(e){h=e,H()}function H(){b&&(document.body.dataset.screen=h.screen,h.screen==="top"?_e(b):h.screen==="question"?be(b,h.index,h.answers):h.screen==="result"?Se(b,h.typeId):h.screen==="license"&&Ce(b,h.licenseId),window.scrollTo({top:0}))}function _e(e){var t;e.innerHTML=`
     <main class="screen screen-top">
@@ -98,6 +98,7 @@
       <p class="mascot-caption">マスコットの「みっけ」</p>
       <button type="button" class="btn btn-primary" id="start-quiz">サクッと診断（1分）</button>
       <p class="app-footer">12種類の動物タイプであなたに合う資格が見つかる</p>
+      <a class="app-top__license-link" href="./license/">資格一覧を見る</a>
     </main>
   `,(t=e.querySelector("#start-quiz"))==null||t.addEventListener("click",()=>{E({screen:"question",index:0,answers:{}})})}function ke(e){const t=S.flatMap(a=>(e[a.id]??[]).map(s=>({question:a,choice:s}))),i=V(x,t);window.location.href=Q("/shikaku-mikke/quiz/",i.type.id)}function q(e,t){e>=S.length?ke(t):E({screen:"question",index:e,answers:t})}function be(e,t,i){var u,_;const a=S[t],s=a.axis==="TAG",n=(t+1)/S.length*100,r=i[a.id]??[];e.innerHTML=`
     <main class="screen screen-question">
