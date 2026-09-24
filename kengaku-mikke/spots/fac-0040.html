@@ -87,6 +87,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -94,11 +97,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -124,39 +182,54 @@
       <dd>東京都北区西ケ原2-3-15</dd>
       <dt>アクセス</dt>
       <dd>東京メトロ南北線「西ケ原駅」1番出口から徒歩1分、またはJR京浜東北線「上中里駅」から徒歩10分。自家用車・バイク・自転車での来場は不可(団体バスのみ事前許可制で駐車可)。</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>無料</dd>
       <dt>予約</dt>
       <dd>要予約<br /><span class="note">インターネットによる事前予約が必須。見学者全員の氏名・年齢・住所の事前登録が必要。受付時に身分証確認と手荷物検査あり。</span></dd>
       <dt>所要時間</dt>
       <dd>90分<br /><span class="note">紙幣製造の紹介映像、ガラス越しの製造現場見学、偽造防止技術や紙幣の重さを体感できる展示コーナーで構成。中学生以下は保護者同伴が原則。</span></dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
       <dd>小学生以上</dd>
       <dt>試食・試飲</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>おみやげ</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>体験</dt>
       <dd>あり</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>火曜・木曜</dd>
       <dt>定休日・休止情報</dt>
       <dd>月・水・金・土・日曜、祝日、年末年始。臨時休止日あり。</dd>
       <dt>1日の開催回数</dt>
       <dd>2回</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://www.npb.go.jp/event/kengaku/tokyo.html" rel="noopener" target="_blank">https://www.npb.go.jp/event/kengaku/tokyo.html</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://www.npb.go.jp/event/kengaku/tokyo.html" rel="nofollow noopener" target="_blank">https://www.npb.go.jp/event/kengaku/tokyo.html</a></li>
-        <li><a href="https://www.npb.go.jp/guide/organization/tokyo.html" rel="nofollow noopener" target="_blank">https://www.npb.go.jp/guide/organization/tokyo.html</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://www.npb.go.jp/event/kengaku/tokyo.html" rel="nofollow noopener" target="_blank">https://www.npb.go.jp/event/kengaku/tokyo.html</a>
+        <a class="source-chip" href="https://www.npb.go.jp/guide/organization/tokyo.html" rel="nofollow noopener" target="_blank">https://www.npb.go.jp/guide/organization/tokyo.html</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

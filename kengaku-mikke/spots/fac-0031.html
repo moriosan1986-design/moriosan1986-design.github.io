@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -121,41 +179,56 @@
       <dd>宮城県仙台市青葉区ニッカ1番地</dd>
       <dt>アクセス</dt>
       <dd>JR仙山線 作並駅から無料シャトルバスが運行しており、事前予約なしで利用できます。徒歩の場合は30〜40分程度かかります。作並駅にタクシーは常駐しておらず、到着後の当日配車には対応できない場合があるため、タクシー利用を希望する場合は事前の問い合わせが推奨されています。</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>無料<br /><span class="note">無料の蒸溜所ガイドツアー(標準コース)の参加費。別途、開催日時不定期の有料セミナーがある(参加費はtxtに記載なし)。</span></dd>
       <dt>予約</dt>
       <dd>要予約<br /><span class="note">無料の蒸溜所ガイドツアー(標準コース)は前日までの事前予約制。Web予約は前日23:59まで、電話予約は前日16:00まで(当日電話予約不可)。1〜9名まで、金土日祝日・GW・お盆期間中は10名以上の予約不可。蒸溜所内の一部区域は工事のため見学できない箇所がある。別途、開催日時不定期の有料セミナーもある(要予約)。予約不要で入場できるビジターセンター(展示、有料テイスティングバー併設)、ギフトショップ、貯蔵庫もある。</span></dd>
       <dt>所要時間</dt>
       <dd>70分<br /><span class="note">蒸溜所見学50分+無料試飲最長20分</span></dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>試食・試飲</dt>
       <dd>あり</dd>
       <dt>おみやげ</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>体験</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>屋内/屋外</dt>
       <dd>屋外あり</dd>
       <dt>ベビーカー</dt>
       <dd>ベビーカー可</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>12月23日〜1月7日、8月18日〜8月20日を除く毎日</dd>
       <dt>定休日・休止情報</dt>
       <dd>12月23日〜1月7日、8月18日〜8月20日は蒸溜所休業</dd>
       <dt>1日の開催回数</dt>
       <dd>11回</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://www.nikka.com/distilleries/miyagikyo/" rel="noopener" target="_blank">https://www.nikka.com/distilleries/miyagikyo/</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://www.nikka.com/distilleries/miyagikyo/" rel="nofollow noopener" target="_blank">https://www.nikka.com/distilleries/miyagikyo/</a></li>
-        <li><a href="https://www.nikka.com/distilleries/miyagikyo/visit/" rel="nofollow noopener" target="_blank">https://www.nikka.com/distilleries/miyagikyo/visit/</a></li>
-        <li><a href="https://distillery.nikka.com/miyagikyo/reservation" rel="nofollow noopener" target="_blank">https://distillery.nikka.com/miyagikyo/reservation</a></li>
-        <li><a href="https://www.nikka.com/distilleries/miyagikyo/access/" rel="nofollow noopener" target="_blank">https://www.nikka.com/distilleries/miyagikyo/access/</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://www.nikka.com/distilleries/miyagikyo/" rel="nofollow noopener" target="_blank">https://www.nikka.com/distilleries/miyagikyo/</a>
+        <a class="source-chip" href="https://www.nikka.com/distilleries/miyagikyo/visit/" rel="nofollow noopener" target="_blank">https://www.nikka.com/distilleries/miyagikyo/visit/</a>
+        <a class="source-chip" href="https://distillery.nikka.com/miyagikyo/reservation" rel="nofollow noopener" target="_blank">https://distillery.nikka.com/miyagikyo/reservation</a>
+        <a class="source-chip" href="https://www.nikka.com/distilleries/miyagikyo/access/" rel="nofollow noopener" target="_blank">https://www.nikka.com/distilleries/miyagikyo/access/</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

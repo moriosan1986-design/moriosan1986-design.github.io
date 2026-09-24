@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -114,46 +172,61 @@
       <dt>カテゴリ</dt>
       <dd>🍺 飲料・酒 ・ ビール</dd>
       <dt>運営</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>所在地</dt>
       <dd>岡山県 岡山市東区</dd>
       <dt>住所</dt>
       <dd>岡山県岡山市東区瀬戸町万富678</dd>
       <dt>アクセス</dt>
       <dd>JR山陽本線 岡山駅から万富駅まで約25分、万富駅より徒歩約15分。車:山陽自動車道「山陽IC」から約15分、美作岡山道路「瀬戸IC」から約5分。</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>大人500円<br /><span class="note">「キリン一番搾りおいしさ実感ツアー」所要時間約75分:9月末までの催行分は1名500円(税込)、10月1日以降の催行分は1名1,000円(税込)。20歳以上限定の「キリン一番搾りエクスペリエンス」(所要時間約90分、定員20名)は1名3,000円で別コース。</span></dd>
       <dt>予約</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>所要時間</dt>
       <dd>75分<br /><span class="note">「キリン一番搾りおいしさ実感ツアー」の所要時間。20歳以上限定の別コース「キリン一番搾りエクスペリエンス」は約90分。</span></dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>試食・試飲</dt>
       <dd>あり</dd>
       <dt>おみやげ</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>体験</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>定休日・休止情報</dt>
       <dd>月曜・火曜日休館(祝日の場合は営業/月曜・火曜日とも祝日の場合は翌水曜日のみ休館)、年末年始休館・臨時休館あり。</dd>
       <dt>1日の開催回数</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://www.kirin.co.jp/experience/factory/okayama/" rel="noopener" target="_blank">https://www.kirin.co.jp/experience/factory/okayama/</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://www.kirin.co.jp/experience/factory/okayama/" rel="nofollow noopener" target="_blank">https://www.kirin.co.jp/experience/factory/okayama/</a></li>
-        <li><a href="https://www.kirin.co.jp/experience/factory/okayama/access/" rel="nofollow noopener" target="_blank">https://www.kirin.co.jp/experience/factory/okayama/access/</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://www.kirin.co.jp/experience/factory/okayama/" rel="nofollow noopener" target="_blank">https://www.kirin.co.jp/experience/factory/okayama/</a>
+        <a class="source-chip" href="https://www.kirin.co.jp/experience/factory/okayama/access/" rel="nofollow noopener" target="_blank">https://www.kirin.co.jp/experience/factory/okayama/access/</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -121,39 +179,54 @@
       <dd>静岡県磐田市新貝2500</dd>
       <dt>アクセス</dt>
       <dd>電車:JR御厨駅より徒歩約15分(約1.2km)またはタクシーで約5分。JR磐田駅よりタクシーで約10分、または磐田駅前バスターミナル1番のりば遠鉄バス「城之崎経由磐田営業所」行きで「ヤマハ発動機前」下車。車:浜松ICより約10km、磐田ICより約5km、袋井ICより約6.5km、磐田バイパス岩井ICより約2km。</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>無料</dd>
       <dt>予約</dt>
       <dd>予約不要<br /><span class="note">10名以下の来館は予約不要。11名以上の団体は1週間以上前の要予約。学校団体(小学生〜大学生)の館内見学・モーターサイクル組立工場見学は別途申込みが必要で、現在工場見学は小・中学校のみ実施。</span></dd>
       <dt>所要時間</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>試食・試飲</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>おみやげ</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>体験</dt>
       <dd>あり</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>開館日A(ヤマハ発動機本社の稼働日に準じる平日など)9:00〜17:00。開館日B(主に毎月第2・第4土曜日と翌日曜日)10:00〜17:00。</dd>
       <dt>定休日・休止情報</dt>
       <dd>上記以外の土日祝日等は休館(詳細はカレンダーで確認)。状況により予告なく日程変更の場合あり。</dd>
       <dt>1日の開催回数</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://global.yamaha-motor.com/jp/showroom/cp/info/" rel="noopener" target="_blank">https://global.yamaha-motor.com/jp/showroom/cp/info/</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://global.yamaha-motor.com/jp/showroom/cp/info/" rel="nofollow noopener" target="_blank">https://global.yamaha-motor.com/jp/showroom/cp/info/</a></li>
-        <li><a href="https://global.yamaha-motor.com/jp/profile/map/018/" rel="nofollow noopener" target="_blank">https://global.yamaha-motor.com/jp/profile/map/018/</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://global.yamaha-motor.com/jp/showroom/cp/info/" rel="nofollow noopener" target="_blank">https://global.yamaha-motor.com/jp/showroom/cp/info/</a>
+        <a class="source-chip" href="https://global.yamaha-motor.com/jp/profile/map/018/" rel="nofollow noopener" target="_blank">https://global.yamaha-motor.com/jp/profile/map/018/</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

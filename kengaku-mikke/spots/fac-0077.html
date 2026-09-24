@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -114,47 +172,62 @@
       <dt>カテゴリ</dt>
       <dd>🍺 飲料・酒 ・ ビール</dd>
       <dt>運営</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>所在地</dt>
       <dd>大分県 日田市</dd>
       <dt>住所</dt>
       <dd>大分県日田市大字高瀬6979</dd>
       <dt>アクセス</dt>
       <dd>JR久大本線「日田」駅よりタクシーで約10分。日田バス(西鉄バス)「日田バスセンター」よりタクシーで約10分。車:九州自動車道→鳥栖JCT→大分自動車道→日田ICを出て右折→国道212号線を大分・湯布院方面に約6km(日田ICより約10分)。</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>大人1,000円 / 子ども500円<br /><span class="note">3コースあり、いずれも有料。「サッポロシアター」(映像+試飲1杯、約40分)は大人500円・中学生〜20歳未満300円・小学生以下無料。「工場見学ツアー」(工場見学+試飲2杯、約60分)は大人1,000円・中学生〜20歳未満500円・小学生以下無料。「黒ラベル THE PERFECT TOUR」(約90分、月1回開催)は大人2,000円で20歳未満・乳幼児連れは参加不可。いずれもおつまみとオリジナルグラスのお土産付き。adultYen/childYenは「工場見学ツアー」の値。</span></dd>
       <dt>予約</dt>
       <dd>要予約<br /><span class="note">WEB予約はご希望日の4週間前午前8時より前日15時まで受付。電話予約もご希望日の4週間前より受付。同一のお客様による複数回の予約は不可。</span></dd>
       <dt>所要時間</dt>
       <dd>60分<br /><span class="note">「工場見学ツアー」の所要時間(シアター約10分+工場見学約20分+試飲約30分)。「サッポロシアター」は約40分、「黒ラベル THE PERFECT TOUR」は約90分。</span></dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>試食・試飲</dt>
       <dd>あり</dd>
       <dt>おみやげ</dt>
       <dd>あり</dd>
       <dt>体験</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>「工場見学ツアー」は毎週水曜日・金曜日開催。「サッポロシアター」は毎日(休館日を除く)開催。</dd>
       <dt>定休日・休止情報</dt>
       <dd>毎週月曜日・火曜日休館(祝日の場合は翌日・翌々日)、年末年始、臨時休館日あり。</dd>
       <dt>1日の開催回数</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://www.sapporobeer.jp/brewery/kyushuhita/reservation/" rel="noopener" target="_blank">https://www.sapporobeer.jp/brewery/kyushuhita/reservation/</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://www.sapporobeer.jp/brewery/kyushuhita/reservation/" rel="nofollow noopener" target="_blank">https://www.sapporobeer.jp/brewery/kyushuhita/reservation/</a></li>
-        <li><a href="https://www.sapporobeer.jp/brewery/kyushuhita/" rel="nofollow noopener" target="_blank">https://www.sapporobeer.jp/brewery/kyushuhita/</a></li>
-        <li><a href="https://www.sapporobeer.jp/brewery/kyushuhita/access/" rel="nofollow noopener" target="_blank">https://www.sapporobeer.jp/brewery/kyushuhita/access/</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://www.sapporobeer.jp/brewery/kyushuhita/reservation/" rel="nofollow noopener" target="_blank">https://www.sapporobeer.jp/brewery/kyushuhita/reservation/</a>
+        <a class="source-chip" href="https://www.sapporobeer.jp/brewery/kyushuhita/" rel="nofollow noopener" target="_blank">https://www.sapporobeer.jp/brewery/kyushuhita/</a>
+        <a class="source-chip" href="https://www.sapporobeer.jp/brewery/kyushuhita/access/" rel="nofollow noopener" target="_blank">https://www.sapporobeer.jp/brewery/kyushuhita/access/</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

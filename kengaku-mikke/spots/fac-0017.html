@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -121,40 +179,55 @@
       <dd>茨城県猿島郡五霞町大字川妻1232-2</dd>
       <dt>アクセス</dt>
       <dd>JR「栗橋駅」からタクシーで約7分</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>料金不明<br /><span class="note">公式ページに料金の記載が見当たらないため確認できず。同社の他工場では無料と明記されている例があるが、本施設について料金の明記は未確認(要人間確認)。</span></dd>
       <dt>予約</dt>
       <dd>要予約<br /><span class="note">1〜9名はインターネット予約フォーム、10名以上は電話予約。見学希望日の60日前から前日16時まで受付</span></dd>
       <dt>所要時間</dt>
       <dd>60分</dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
       <dd>小さなお子様からご年配の方まで(年齢制限の明記なし)</dd>
       <dt>試食・試飲</dt>
       <dd>あり</dd>
       <dt>おみやげ</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>体験</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>月〜土</dd>
       <dt>定休日・休止情報</dt>
       <dd>日曜、年末年始</dd>
       <dt>1日の開催回数</dt>
       <dd>3回</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://www.yakult.co.jp/visit/factory/c02.html" rel="noopener" target="_blank">https://www.yakult.co.jp/visit/factory/c02.html</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://www.yakult.co.jp/visit/factory/c02.html" rel="nofollow noopener" target="_blank">https://www.yakult.co.jp/visit/factory/c02.html</a></li>
-        <li><a href="https://www.yakult.co.jp/visit/factory/" rel="nofollow noopener" target="_blank">https://www.yakult.co.jp/visit/factory/</a></li>
-        <li><a href="https://www.yakult.co.jp/visit/factory/tour/" rel="nofollow noopener" target="_blank">https://www.yakult.co.jp/visit/factory/tour/</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://www.yakult.co.jp/visit/factory/c02.html" rel="nofollow noopener" target="_blank">https://www.yakult.co.jp/visit/factory/c02.html</a>
+        <a class="source-chip" href="https://www.yakult.co.jp/visit/factory/" rel="nofollow noopener" target="_blank">https://www.yakult.co.jp/visit/factory/</a>
+        <a class="source-chip" href="https://www.yakult.co.jp/visit/factory/tour/" rel="nofollow noopener" target="_blank">https://www.yakult.co.jp/visit/factory/tour/</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -121,12 +179,20 @@
       <dd>沖縄県名護市字許田405</dd>
       <dt>アクセス</dt>
       <dd>路線バス:那覇バスターミナルから系統20番「名護バスターミナル行き」で「湖辺底」バス停下車、徒歩約5分。車:沖縄自動車道 許田料金所付近から看板に従って進入(詳細ルートは公式サイト参照)。美ら海水族館から車で約40分、ナゴパイナップルパークから車で約20分、ジャングリアから車で約30分。</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>大人500円<br /><span class="note">見学料金500円(税込)/人。お土産つき(2024年9月1日より有料化)。</span></dd>
       <dt>予約</dt>
       <dd>要予約<br /><span class="note">完全予約制。電話受付(9時〜17時)またはWeb24時間受付。前日・当日の予約は電話のみ受付。</span></dd>
       <dt>所要時間</dt>
       <dd>45分<br /><span class="note">受付→ギャラリーでの上映会(約10分、泡盛の歴史・工程説明)→二の蔵見学(水曜を除く)→試飲体験の流れ。</span></dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
       <dd>保護者同伴であれば子供も見学可</dd>
       <dt>試食・試飲</dt>
@@ -134,26 +200,33 @@
       <dt>おみやげ</dt>
       <dd>あり</dd>
       <dt>体験</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>1日2回開催(①11時〜 ②15時〜)</dd>
       <dt>定休日・休止情報</dt>
       <dd>毎週水曜日は酒蔵見学定休日(古酒蔵ショップ/ギャラリーは営業)。</dd>
       <dt>1日の開催回数</dt>
       <dd>2回</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://tour.helios-shop.jp/" rel="noopener" target="_blank">https://tour.helios-shop.jp/</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://tour.helios-shop.jp/" rel="nofollow noopener" target="_blank">https://tour.helios-shop.jp/</a></li>
-        <li><a href="https://www.helios-syuzo.co.jp/company" rel="nofollow noopener" target="_blank">https://www.helios-syuzo.co.jp/company</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://tour.helios-shop.jp/" rel="nofollow noopener" target="_blank">https://tour.helios-shop.jp/</a>
+        <a class="source-chip" href="https://www.helios-syuzo.co.jp/company" rel="nofollow noopener" target="_blank">https://www.helios-syuzo.co.jp/company</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

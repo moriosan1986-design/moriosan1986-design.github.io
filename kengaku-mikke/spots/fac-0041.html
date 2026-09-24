@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -121,42 +179,57 @@
       <dd>神奈川県川崎市川崎区鈴木町3番4号</dd>
       <dt>アクセス</dt>
       <dd>京急大師線「鈴木町駅」下車、徒歩1分。受付は「味の素グループうま味体験館」1階。自家用車の駐車場・自転車の駐輪場はないため公共交通機関の利用が必要。</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>無料<br /><span class="note">個人向け各コース(「味の素®」「ほんだし®」「Cook Do®」「クノール®」等)はいずれも無料。</span></dd>
       <dt>予約</dt>
       <dd>要予約<br /><span class="note">個人見学(14名以下)は予約カレンダーからオンライン申し込み。「味の素グループうま味体験館」1階展示スペースの自由見学のみ予約不要。コースごとの対象年齢:「クノール®」スープコース 2歳〜/「Cook Do®」コース 小学1年生〜/「Cook Do®」親子コース 小学1年生〜/「Cook Do®」回鍋厚揚コース 小学1年生〜/「ほんだし®」コース 2歳〜/「味の素®」コース 2歳〜/「味の素®」おしごと体験イベントコース 小学生〜/社会科見学コース 小学3年生〜/夏休み自由研究向け「ほんだし®」講座コース 小学生とその保護者/夏休み自由研究向け「クノール® カップスープ」講座コース 小学生とその保護者。</span></dd>
       <dt>所要時間</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
       <dd>2歳以上 / コースにより異なる(2歳以上〜小学生以上)</dd>
       <dt>試食・試飲</dt>
       <dd>あり</dd>
       <dt>おみやげ</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>体験</dt>
       <dd>あり</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>自由見学スペースは火〜土曜</dd>
       <dt>定休日・休止情報</dt>
       <dd>日・月曜等(見学コースの開催日は予約カレンダーを参照)</dd>
       <dt>1日の開催回数</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/" rel="noopener" target="_blank">https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/" rel="nofollow noopener" target="_blank">https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/</a></li>
-        <li><a href="https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/access.html" rel="nofollow noopener" target="_blank">https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/access.html</a></li>
-        <li><a href="https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/tour_ajinomoto.html" rel="nofollow noopener" target="_blank">https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/tour_ajinomoto.html</a></li>
-        <li><a href="https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/tour_umami.html" rel="nofollow noopener" target="_blank">https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/tour_umami.html</a></li>
-        <li><a href="https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/calendar.html" rel="nofollow noopener" target="_blank">https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/calendar.html</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/" rel="nofollow noopener" target="_blank">https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/</a>
+        <a class="source-chip" href="https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/access.html" rel="nofollow noopener" target="_blank">https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/access.html</a>
+        <a class="source-chip" href="https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/tour_ajinomoto.html" rel="nofollow noopener" target="_blank">https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/tour_ajinomoto.html</a>
+        <a class="source-chip" href="https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/tour_umami.html" rel="nofollow noopener" target="_blank">https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/tour_umami.html</a>
+        <a class="source-chip" href="https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/calendar.html" rel="nofollow noopener" target="_blank">https://www.ajinomoto.co.jp/kfb/kengaku/kawasaki/calendar.html</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -121,40 +179,55 @@
       <dd>埼玉県本庄市児玉町児玉850-10</dd>
       <dt>アクセス</dt>
       <dd>JR高崎線本庄駅からタクシーで約20分。JR上越新幹線本庄早稲田駅からタクシーで約15分。JR八高線児玉駅からタクシーで約10分。</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>無料</dd>
       <dt>予約</dt>
       <dd>要予約<br /><span class="note">工場見学予約サイト(akagi-tour.com)からの抽選制応募。当選者のみ来場可能で、電話での申込はできません。</span></dd>
       <dt>所要時間</dt>
       <dd>90分<br /><span class="note">概要説明・映像鑑賞・製造工程見学・ガリガリ君広場を含む所要時間です。</span></dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
       <dd>小学生以下のお子様は保護者の付き添いが必須です。</dd>
       <dt>試食・試飲</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>おみやげ</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>体験</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>定休日・休止情報</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>1日の開催回数</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://www.akagi.com/factory/index.html" rel="noopener" target="_blank">https://www.akagi.com/factory/index.html</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://www.akagi.com/factory/index.html" rel="nofollow noopener" target="_blank">https://www.akagi.com/factory/index.html</a></li>
-        <li><a href="https://www.akagi.com/safety/factory/outline/access.html" rel="nofollow noopener" target="_blank">https://www.akagi.com/safety/factory/outline/access.html</a></li>
-        <li><a href="https://akagi-tour.com/" rel="nofollow noopener" target="_blank">https://akagi-tour.com/</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://www.akagi.com/factory/index.html" rel="nofollow noopener" target="_blank">https://www.akagi.com/factory/index.html</a>
+        <a class="source-chip" href="https://www.akagi.com/safety/factory/outline/access.html" rel="nofollow noopener" target="_blank">https://www.akagi.com/safety/factory/outline/access.html</a>
+        <a class="source-chip" href="https://akagi-tour.com/" rel="nofollow noopener" target="_blank">https://akagi-tour.com/</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

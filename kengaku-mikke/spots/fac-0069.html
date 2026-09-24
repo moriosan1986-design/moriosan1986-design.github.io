@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -121,38 +179,53 @@
       <dd>高知県土佐市甲原2001番地1</dd>
       <dt>アクセス</dt>
       <dd>車:高知龍馬空港から約50分、高知駅から約40分、土佐PAから約10分。バス:「甲原船戸」から徒歩約15分。無料駐車場あり。</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>大人1,000円<br /><span class="note">1名につき1,000円(税込)。無料試飲2杯・オリジナルお猪口プレゼントを含む。事前お申し込み見学者以外の一般来場者の試飲は有料。</span></dd>
       <dt>予約</dt>
       <dd>要予約<br /><span class="note">「蔵見学申し込みフォーム」(外部予約サイト)より予約必須(1枠、最大10名まで受付)。ツアー会社は電話予約が必要。</span></dd>
       <dt>所要時間</dt>
       <dd>50分</dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>試食・試飲</dt>
       <dd>あり</dd>
       <dt>おみやげ</dt>
       <dd>あり</dd>
       <dt>体験</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>開催日: 月・水・木・金・土・日。見学時間: 10時30分〜11時20分/12時30分〜13時20分/15時〜15時50分の3回。</dd>
       <dt>定休日・休止情報</dt>
       <dd>火曜日は開催日に含まれない。醸造期間は10月〜5月で、それ以外の期間は仕込み工程が行われていない旨の注記あり。</dd>
       <dt>1日の開催回数</dt>
       <dd>3回</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://suigei.co.jp/brewery/tour" rel="noopener" target="_blank">https://suigei.co.jp/brewery/tour</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://suigei.co.jp/brewery/tour" rel="nofollow noopener" target="_blank">https://suigei.co.jp/brewery/tour</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://suigei.co.jp/brewery/tour" rel="nofollow noopener" target="_blank">https://suigei.co.jp/brewery/tour</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

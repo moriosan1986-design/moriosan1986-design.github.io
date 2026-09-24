@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -121,41 +179,56 @@
       <dd>北海道余市郡余市町黒川町7丁目6</dd>
       <dt>アクセス</dt>
       <dd>JR函館本線余市駅から徒歩約5分(小樽駅〜余市駅間は列車本数が少ないため要注意)。バス利用の場合は小樽駅前から約40分、余市駅前十字街下車徒歩約2分。車の場合、小樽市内から約30分、札幌市内・新千歳空港から約1時間。</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>無料<br /><span class="note">無料の蒸溜所ガイドツアー(標準コース)の参加費。別途、開催日時不定期の有料セミナーがある(参加費はtxtに記載なし)。ガイドツアー参加者は見学後に無料試飲(お一人様各種1杯)ができる。20歳未満、および車・バイク・自転車の運転者は試飲不可(ソフトドリンクを用意)。</span></dd>
       <dt>予約</dt>
       <dd>要予約<br /><span class="note">無料の蒸溜所ガイドツアー(標準コース)は事前のWeb予約制(先着順、直近4週間分を毎日9時15分更新で受付、キャンセル待ち不可)。1〜9名まで、10名以上のグループを分けての予約・入場や貸切バスでの予約・入場は不可。別途、開催日時不定期の有料セミナーもある(要予約)。予約不要で入場できるニッカミュージアム(展示、有料テイスティングバー併設)、ディスティラリーショップ、レストランもある。</span></dd>
       <dt>所要時間</dt>
       <dd>60分<br /><span class="note">冬期間は一部施設が閉鎖されるため所要時間が短くなる場合あり</span></dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>試食・試飲</dt>
       <dd>あり</dd>
       <dt>おみやげ</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>体験</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>屋内/屋外</dt>
       <dd>屋外あり</dd>
       <dt>ベビーカー</dt>
       <dd>ベビーカー可</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>12月23日〜1月7日・6月11日を除く毎日</dd>
       <dt>定休日・休止情報</dt>
       <dd>12月23日〜1月7日、6月11日は蒸溜所休業日(年末年始期間は見学・売店・試飲・ニッカミュージアムとも休業)</dd>
       <dt>1日の開催回数</dt>
       <dd>10回</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://www.nikka.com/distilleries/yoichi/" rel="noopener" target="_blank">https://www.nikka.com/distilleries/yoichi/</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://www.nikka.com/distilleries/yoichi/" rel="nofollow noopener" target="_blank">https://www.nikka.com/distilleries/yoichi/</a></li>
-        <li><a href="https://www.nikka.com/distilleries/yoichi/visit/" rel="nofollow noopener" target="_blank">https://www.nikka.com/distilleries/yoichi/visit/</a></li>
-        <li><a href="https://distillery.nikka.com/yoichi/reservation" rel="nofollow noopener" target="_blank">https://distillery.nikka.com/yoichi/reservation</a></li>
-        <li><a href="https://www.nikka.com/distilleries/yoichi/access/" rel="nofollow noopener" target="_blank">https://www.nikka.com/distilleries/yoichi/access/</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://www.nikka.com/distilleries/yoichi/" rel="nofollow noopener" target="_blank">https://www.nikka.com/distilleries/yoichi/</a>
+        <a class="source-chip" href="https://www.nikka.com/distilleries/yoichi/visit/" rel="nofollow noopener" target="_blank">https://www.nikka.com/distilleries/yoichi/visit/</a>
+        <a class="source-chip" href="https://distillery.nikka.com/yoichi/reservation" rel="nofollow noopener" target="_blank">https://distillery.nikka.com/yoichi/reservation</a>
+        <a class="source-chip" href="https://www.nikka.com/distilleries/yoichi/access/" rel="nofollow noopener" target="_blank">https://www.nikka.com/distilleries/yoichi/access/</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

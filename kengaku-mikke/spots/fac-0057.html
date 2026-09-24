@@ -87,6 +87,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -94,11 +97,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -123,45 +181,60 @@
       <dt>住所</dt>
       <dd>北海道小樽市堺町7-8</dd>
       <dt>アクセス</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>料金は公式サイトで確認<br /><span class="note">サンドブラスト体験はクイックコース(30分程度)体験料1,200円+グラス代1,800円~+図柄シート代、じっくりコース(40〜90分程度)体験料1,300円+グラス代1,800円~+図柄シート代。とんぼ玉アレンジメント体験はコース(ヘアゴム・ペンダント・ストラップ・ブレスレット)により体験料200〜350円+パーツ代+とんぼ玉代(1個80〜2,000円)。</span></dd>
       <dt>予約</dt>
       <dd>要予約<br /><span class="note">体験希望日の2日前17:00までにWEB予約申し込みフォームまたは電話・メールで申込み。前日・当日の申込みは電話のみ(当日は直接来店の場合もあり)。団体利用は事前にメールで要連絡。</span></dd>
       <dt>所要時間</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>試食・試飲</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>おみやげ</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>体験</dt>
       <dd>あり</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>年中無休</dd>
       <dt>定休日・休止情報</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>1日の開催回数</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://kitaichiglass.co.jp/seisaku-taiken/" rel="noopener" target="_blank">https://kitaichiglass.co.jp/seisaku-taiken/</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://kitaichiglass.co.jp/seisaku-taiken/" rel="nofollow noopener" target="_blank">https://kitaichiglass.co.jp/seisaku-taiken/</a></li>
-        <li><a href="https://kitaichiglass.co.jp/seisakutaikenkobo/" rel="nofollow noopener" target="_blank">https://kitaichiglass.co.jp/seisakutaikenkobo/</a></li>
-        <li><a href="https://kitaichiglass.co.jp/seisakutaikenkobo_taiken1/" rel="nofollow noopener" target="_blank">https://kitaichiglass.co.jp/seisakutaikenkobo_taiken1/</a></li>
-        <li><a href="https://kitaichiglass.co.jp/seisakutaikenkobo_taiken2/" rel="nofollow noopener" target="_blank">https://kitaichiglass.co.jp/seisakutaikenkobo_taiken2/</a></li>
-        <li><a href="https://kitaichiglass.co.jp/access-2/" rel="nofollow noopener" target="_blank">https://kitaichiglass.co.jp/access-2/</a></li>
-        <li><a href="https://kitaichiglass.co.jp/service-guide/" rel="nofollow noopener" target="_blank">https://kitaichiglass.co.jp/service-guide/</a></li>
-        <li><a href="https://kitaichiglass.co.jp/profile/" rel="nofollow noopener" target="_blank">https://kitaichiglass.co.jp/profile/</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://kitaichiglass.co.jp/seisaku-taiken/" rel="nofollow noopener" target="_blank">https://kitaichiglass.co.jp/seisaku-taiken/</a>
+        <a class="source-chip" href="https://kitaichiglass.co.jp/seisakutaikenkobo/" rel="nofollow noopener" target="_blank">https://kitaichiglass.co.jp/seisakutaikenkobo/</a>
+        <a class="source-chip" href="https://kitaichiglass.co.jp/seisakutaikenkobo_taiken1/" rel="nofollow noopener" target="_blank">https://kitaichiglass.co.jp/seisakutaikenkobo_taiken1/</a>
+        <a class="source-chip" href="https://kitaichiglass.co.jp/seisakutaikenkobo_taiken2/" rel="nofollow noopener" target="_blank">https://kitaichiglass.co.jp/seisakutaikenkobo_taiken2/</a>
+        <a class="source-chip" href="https://kitaichiglass.co.jp/access-2/" rel="nofollow noopener" target="_blank">https://kitaichiglass.co.jp/access-2/</a>
+        <a class="source-chip" href="https://kitaichiglass.co.jp/service-guide/" rel="nofollow noopener" target="_blank">https://kitaichiglass.co.jp/service-guide/</a>
+        <a class="source-chip" href="https://kitaichiglass.co.jp/profile/" rel="nofollow noopener" target="_blank">https://kitaichiglass.co.jp/profile/</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -121,40 +179,55 @@
       <dd>東京都大田区羽田空港3-5-1 JALメインテナンスセンター1</dd>
       <dt>アクセス</dt>
       <dd>東京モノレール「新整備場」駅から徒歩2分。新整備場駅はモノレール普通(各駅停車)のみ停車し、空港快速は停車しません。近くに似た名称の「整備場」駅があるため、下車駅を間違えないよう注意してください。駐車場・駐輪場はないため、車・自転車での来場はできません。</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>大人1,000円 / 子ども0円<br /><span class="note">工場見学コース(標準コース)の料金。大人は13歳以上、子供は12歳以下(小学生未満は入場不可)で無料。決済はクレジットカードのみ(予約時)。別途、ライフベスト体験コース(1,500円)、STEAM SCHOOL(1,500円)、ビジネスクラス機内食体験&amp;FUJI号プレミアムコース(8,000円、いずれも大人子供共通)がある。</span></dd>
       <dt>予約</dt>
       <dd>要予約<br /><span class="note">予約はインターネット予約のみで、見学日の1か月前の同一日9:30から受付開始。見学可能人数は50〜80名様程度。ライフベスト体験コース・STEAM SCHOOL・ビジネスクラス機内食体験&amp;FUJI号プレミアムコースなど、標準コース以外の有償コースもある(入場料込み)。</span></dd>
       <dt>所要時間</dt>
       <dd>130分<br /><span class="note">ミュージアム体験80分+格納庫見学50分の合計</span></dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
       <dd>小学生以上</dd>
       <dt>試食・試飲</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>おみやげ</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>体験</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
       <dd>ベビーカー不可</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>月・火・木・金・土・日</dd>
       <dt>定休日・休止情報</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>1日の開催回数</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://www.jal.com/ja/kengaku/" rel="noopener" target="_blank">https://www.jal.com/ja/kengaku/</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://www.jal.com/ja/kengaku/" rel="nofollow noopener" target="_blank">https://www.jal.com/ja/kengaku/</a></li>
-        <li><a href="https://www.jal.com/ja/kengaku/info/" rel="nofollow noopener" target="_blank">https://www.jal.com/ja/kengaku/info/</a></li>
-        <li><a href="https://www.jal.com/ja/kengaku/access/" rel="nofollow noopener" target="_blank">https://www.jal.com/ja/kengaku/access/</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://www.jal.com/ja/kengaku/" rel="nofollow noopener" target="_blank">https://www.jal.com/ja/kengaku/</a>
+        <a class="source-chip" href="https://www.jal.com/ja/kengaku/info/" rel="nofollow noopener" target="_blank">https://www.jal.com/ja/kengaku/info/</a>
+        <a class="source-chip" href="https://www.jal.com/ja/kengaku/access/" rel="nofollow noopener" target="_blank">https://www.jal.com/ja/kengaku/access/</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

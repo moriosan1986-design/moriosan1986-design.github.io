@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -121,39 +179,54 @@
       <dd>栃木県宇都宮市清原工業団地23-7</dd>
       <dt>アクセス</dt>
       <dd>JR宇都宮駅東口からLRT(宇都宮ライトライン)でグリーンスタジアム停留場下車、徒歩12分。またはJR宇都宮駅からタクシーで約25分。</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>無料<br /><span class="note">売店はないが、見学時間中に商品詰め合わせ(季節によって異なる)を販売している(配布ではなく有償)。</span></dd>
       <dt>予約</dt>
       <dd>要予約<br /><span class="note">個人は先着順のWEB予約(見学希望日の1週間前までに要申込み)、団体・学校は工場見学専用電話で受付。</span></dd>
       <dt>所要時間</dt>
       <dd>120分</dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
       <dd>小学生以上(未就学児は入館不可)</dd>
       <dt>試食・試飲</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>おみやげ</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>体験</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>祝日を除く月〜木</dd>
       <dt>定休日・休止情報</dt>
       <dd>金土日、祝日、お盆、年末年始、工場の行事がある日は実施なし</dd>
       <dt>1日の開催回数</dt>
       <dd>2回</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://www.calbee.co.jp/factory/kiyohara/" rel="noopener" target="_blank">https://www.calbee.co.jp/factory/kiyohara/</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://www.calbee.co.jp/factory/kiyohara/" rel="nofollow noopener" target="_blank">https://www.calbee.co.jp/factory/kiyohara/</a></li>
-        <li><a href="https://www.calbee.co.jp/factory/common/img/kiyohara_map.pdf" rel="nofollow noopener" target="_blank">https://www.calbee.co.jp/factory/common/img/kiyohara_map.pdf</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://www.calbee.co.jp/factory/kiyohara/" rel="nofollow noopener" target="_blank">https://www.calbee.co.jp/factory/kiyohara/</a>
+        <a class="source-chip" href="https://www.calbee.co.jp/factory/common/img/kiyohara_map.pdf" rel="nofollow noopener" target="_blank">https://www.calbee.co.jp/factory/common/img/kiyohara_map.pdf</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

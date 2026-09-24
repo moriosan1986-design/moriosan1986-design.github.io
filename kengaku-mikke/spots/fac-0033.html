@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -121,42 +179,57 @@
       <dd>兵庫県神戸市東灘区住吉南町4丁目5-5</dd>
       <dt>アクセス</dt>
       <dd>阪神本線住吉駅から徒歩約5分、JR住吉駅から徒歩約15分、阪急御影駅から車で約10分</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>無料<br /><span class="note">入館は無料の自由見学です。1階に無料の利き酒コーナーがあり、しぼりたての生原酒などを試飲できます(年齢制限の記載なし)。資料館限定の日本酒等は「白鶴オンラインショップ」で購入可能。</span></dd>
       <dt>予約</dt>
       <dd>予約不要<br /><span class="note">個人・10名未満のグループは予約不要の自由見学。10名以上の団体はオンライン予約が必要。100名以上または当日予約は電話(078-822-8907)で要問い合わせ。</span></dd>
       <dt>所要時間</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>試食・試飲</dt>
       <dd>あり</dd>
       <dt>おみやげ</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>体験</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>無休</dd>
       <dt>定休日・休止情報</dt>
       <dd>夏季休館(2026年8月5日〜18日)、年末年始(2026年12月28日〜2027年1月4日)、臨時休館(2026年6月23日〜24日、設備メンテナンスのため)</dd>
       <dt>1日の開催回数</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://www.hakutsuru.co.jp/community/shiryo/" rel="noopener" target="_blank">https://www.hakutsuru.co.jp/community/shiryo/</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://www.hakutsuru.co.jp/community/shiryo/" rel="nofollow noopener" target="_blank">https://www.hakutsuru.co.jp/community/shiryo/</a></li>
-        <li><a href="https://www.hakutsuru.co.jp/community/shiryo/about/" rel="nofollow noopener" target="_blank">https://www.hakutsuru.co.jp/community/shiryo/about/</a></li>
-        <li><a href="https://www.hakutsuru.co.jp/community/shiryo/floor/" rel="nofollow noopener" target="_blank">https://www.hakutsuru.co.jp/community/shiryo/floor/</a></li>
-        <li><a href="https://www.hakutsuru.co.jp/community/shiryo/recommended/" rel="nofollow noopener" target="_blank">https://www.hakutsuru.co.jp/community/shiryo/recommended/</a></li>
-        <li><a href="https://www.hakutsuru.co.jp/english/culture/museum.html" rel="nofollow noopener" target="_blank">https://www.hakutsuru.co.jp/english/culture/museum.html</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://www.hakutsuru.co.jp/community/shiryo/" rel="nofollow noopener" target="_blank">https://www.hakutsuru.co.jp/community/shiryo/</a>
+        <a class="source-chip" href="https://www.hakutsuru.co.jp/community/shiryo/about/" rel="nofollow noopener" target="_blank">https://www.hakutsuru.co.jp/community/shiryo/about/</a>
+        <a class="source-chip" href="https://www.hakutsuru.co.jp/community/shiryo/floor/" rel="nofollow noopener" target="_blank">https://www.hakutsuru.co.jp/community/shiryo/floor/</a>
+        <a class="source-chip" href="https://www.hakutsuru.co.jp/community/shiryo/recommended/" rel="nofollow noopener" target="_blank">https://www.hakutsuru.co.jp/community/shiryo/recommended/</a>
+        <a class="source-chip" href="https://www.hakutsuru.co.jp/english/culture/museum.html" rel="nofollow noopener" target="_blank">https://www.hakutsuru.co.jp/english/culture/museum.html</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

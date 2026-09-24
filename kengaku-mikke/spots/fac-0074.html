@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -121,41 +179,56 @@
       <dd>岡山県倉敷市水島川崎通1丁目</dd>
       <dt>アクセス</dt>
       <dd>無料バス運行(新倉敷駅北口発着、季節見学会開催時のみ)。車:当製鉄所東側 南門から入場し、見学センター西側駐車場を利用。</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>料金不明<br /><span class="note">見学案内ページに料金の記載が見当たらない。</span></dd>
       <dt>予約</dt>
       <dd>要予約<br /><span class="note">電話予約(見学センター086-448-1300、平日9:00〜16:30受付)。団体様(小学生以上かつ10名以上)は随時受付、個人様(小学生以上)は春・夏・冬休みに合わせて開催する季節見学会のみ参加可能。</span></dd>
       <dt>所要時間</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
       <dd>原則小学生以上(小学生は保護者同伴)</dd>
       <dt>試食・試飲</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>おみやげ</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>体験</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>個人参加は学校の長期休業(春・夏・冬休み)に合わせて開催する季節見学会のみ。2026年夏休み分は8月12日・13日・14日・17日に実施(既に定員に達し募集終了)。団体様(小学生以上かつ10名以上)は平日(月〜金)に随時受付。</dd>
       <dt>定休日・休止情報</dt>
       <dd>個人が参加できる通年の随時見学枠はない。団体受付は土・日・祝日休み。</dd>
       <dt>1日の開催回数</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/winter_kurashiki.html" rel="noopener" target="_blank">https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/winter_kurashiki.html</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/kurashiki.html" rel="nofollow noopener" target="_blank">https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/kurashiki.html</a></li>
-        <li><a href="https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/summer_kurashiki.html" rel="nofollow noopener" target="_blank">https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/summer_kurashiki.html</a></li>
-        <li><a href="https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/winter_kurashiki.html" rel="nofollow noopener" target="_blank">https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/winter_kurashiki.html</a></li>
-        <li><a href="https://www.jfe-steel.co.jp/company/map/jfe/s_kura.html" rel="nofollow noopener" target="_blank">https://www.jfe-steel.co.jp/company/map/jfe/s_kura.html</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/kurashiki.html" rel="nofollow noopener" target="_blank">https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/kurashiki.html</a>
+        <a class="source-chip" href="https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/summer_kurashiki.html" rel="nofollow noopener" target="_blank">https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/summer_kurashiki.html</a>
+        <a class="source-chip" href="https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/winter_kurashiki.html" rel="nofollow noopener" target="_blank">https://www.jfe-steel.co.jp/works/west/west_japan/kengaku/winter_kurashiki.html</a>
+        <a class="source-chip" href="https://www.jfe-steel.co.jp/company/map/jfe/s_kura.html" rel="nofollow noopener" target="_blank">https://www.jfe-steel.co.jp/company/map/jfe/s_kura.html</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">

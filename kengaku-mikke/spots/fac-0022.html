@@ -86,6 +86,9 @@
         margin: 4px 0 0;
         color: #2b211b;
       }
+      dl.facts dd.muted {
+        color: #7c6a5e;
+      }
       .note {
         color: #6e5e54;
         font-size: 13px;
@@ -93,11 +96,66 @@
       .last-checked {
         display: inline-block;
         background: #f4e4da;
+        border: 1px dashed #8f3e20;
         color: #8f3e20;
         font-size: 13px;
-        padding: 4px 10px;
+        padding: 4px 10px 4px 8px;
         border-radius: 4px;
         margin-top: 8px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .last-checked::before {
+        content: '\2713\0020';
+      }
+      .source-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .source-chip {
+        display: inline-block;
+        max-width: 100%;
+        border: 1px dashed #b5502b;
+        border-radius: 4px;
+        padding: 4px 10px;
+        font-size: 13px;
+        color: #b5502b;
+        text-decoration: none;
+        word-break: break-all;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.03em;
+      }
+      .pref-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .pref-count {
+        font-size: 13px;
+        font-weight: normal;
+        color: #6e5e54;
+        font-variant-numeric: tabular-nums;
+      }
+      .spot-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 12px 0 0;
+      }
+      .spot-item {
+        border-left: 1px solid #7c6a5e;
+        padding: 2px 0 10px 14px;
+        margin-bottom: 4px;
+      }
+      .spot-meta {
+        display: block;
+        margin-top: 2px;
+        font-size: 13px;
+        color: #6e5e54;
       }
     </style>
   </head>
@@ -120,40 +178,55 @@
       <dt>住所</dt>
       <dd>東京都府中市矢崎町3-1</dd>
       <dt>アクセス</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
+    </dl>
+
+    <h2>料金・予約・所要時間</h2>
+    <dl class="facts">
       <dt>料金</dt>
       <dd>大人1,000円<br /><span class="note">「ザ・プレミアム・モルツ おいしさ発見ツアー」(標準コース、税込)の参加費。クレジットカードによる事前決済のみ。20歳未満同伴可のファミリー向けコースなど、料金の異なる他コースもある。</span></dd>
       <dt>予約</dt>
       <dd>要予約<br /><span class="note">標準コース「ザ・プレミアム・モルツ おいしさ発見ツアー」はWEB予約のみ、開催日3日前正午までに要事前決済(クレジットカードのみ)。小学3・4年生と保護者向けの「親子ツアー」は電話予約のみ。20歳未満同伴可の「おいしさ発見ツアー(ファミリー向け)」など、他にも複数コースがある。</span></dd>
       <dt>所要時間</dt>
       <dd>90分<br /><span class="note">製造工程見学+試飲</span></dd>
+    </dl>
+
+    <h2>見学の内容</h2>
+    <dl class="facts">
       <dt>対象年齢</dt>
       <dd>大人のみ / 20歳以上</dd>
       <dt>試食・試飲</dt>
       <dd>あり</dd>
       <dt>おみやげ</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>体験</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>屋内/屋外</dt>
-      <dd>公式サイトに記載なし</dd>
+      <dd class="muted">公式サイトに記載なし</dd>
       <dt>ベビーカー</dt>
       <dd>ベビーカー不可</dd>
+    </dl>
+
+    <h2>営業日・開催回数</h2>
+    <dl class="facts">
       <dt>営業日</dt>
       <dd>年末年始、工場休業日を除く毎日</dd>
       <dt>定休日・休止情報</dt>
       <dd>年末年始・工場休業日(臨時休業あり)</dd>
       <dt>1日の開催回数</dt>
       <dd>7回</dd>
+    </dl>
+
+    <dl class="facts">
       <dt>公式サイト</dt>
       <dd><a href="https://www.suntory.co.jp/factory/musashino/" rel="noopener" target="_blank">https://www.suntory.co.jp/factory/musashino/</a></dd>
     </dl>
 
     <h2>確認した情報源</h2>
-    <ul>
-        <li><a href="https://www.suntory.co.jp/factory/musashino/" rel="nofollow noopener" target="_blank">https://www.suntory.co.jp/factory/musashino/</a></li>
-        <li><a href="https://reserve.suntory.co.jp/regist/is?SMPFORM=qerd-ljrcmc-182a8a8109ef83533ff37bd29004ab87&amp;courseNo=00428&amp;eventDate=" rel="nofollow noopener" target="_blank">https://reserve.suntory.co.jp/regist/is?SMPFORM=qerd-ljrcmc-182a8a8109ef83533ff37bd29004ab87&amp;courseNo=00428&amp;eventDate=</a></li>
-    </ul>
+    <div class="source-links">
+        <a class="source-chip" href="https://www.suntory.co.jp/factory/musashino/" rel="nofollow noopener" target="_blank">https://www.suntory.co.jp/factory/musashino/</a>
+        <a class="source-chip" href="https://reserve.suntory.co.jp/regist/is?SMPFORM=qerd-ljrcmc-182a8a8109ef83533ff37bd29004ab87&amp;courseNo=00428&amp;eventDate=" rel="nofollow noopener" target="_blank">https://reserve.suntory.co.jp/regist/is?SMPFORM=qerd-ljrcmc-182a8a8109ef83533ff37bd29004ab87&amp;courseNo=00428&amp;eventDate=</a>
+    </div>
 
     <hr />
     <nav class="footer-nav">
