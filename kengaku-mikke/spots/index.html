@@ -12,50 +12,62 @@
     <meta property="og:title" content="施設一覧 | 見学みっけ" />
     <meta property="og:description" content="全国の工場見学・体験施設の情報を都道府県別に掲載しています(掲載数: 77件、36都道府県、公式サイトを確認して作成)。" />
     <meta property="og:url" content="https://moriosan1986-design.github.io/kengaku-mikke/spots/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet" />
     <style>
+      * {
+        box-sizing: border-box;
+      }
       body {
         font-family:
-          -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif;
-        background: #faf6f3;
-        color: #2b211b;
-        line-height: 1.8;
+          'BIZ UDPGothic', 'Hiragino Sans', 'Yu Gothic', 'Meiryo', sans-serif;
+        background: #f9fafa;
+        color: #141414;
+        line-height: 1.7;
         max-width: 680px;
         margin: 0 auto;
         padding: 40px 24px 80px;
       }
       h1 {
-        font-size: 22px;
-        color: #8f3e20;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.35;
+        color: #141414;
       }
       h2 {
-        font-size: 16px;
-        color: #8f3e20;
+        font-size: 17px;
+        font-weight: 700;
+        color: #141414;
         margin-top: 32px;
+        border-bottom: 3px solid #141414;
+        padding-bottom: 6px;
       }
       p {
-        font-size: 14.5px;
-        color: #6e5e54;
+        font-size: 16px;
+        color: #141414;
       }
       ul {
-        font-size: 14.5px;
-        color: #6e5e54;
+        font-size: 16px;
+        color: #141414;
         padding-left: 22px;
       }
       li {
         margin-bottom: 6px;
-        word-break: break-all;
+        overflow-wrap: anywhere;
       }
       a {
-        color: #b5502b;
+        color: #a8301a;
+      }
+      a:hover,
+      a:focus-visible {
+        text-decoration-color: #a8301a;
+        text-decoration-thickness: 2px;
       }
       hr {
         margin-top: 40px;
         border: none;
-        border-top: 1px solid #e5dad2;
-      }
-      .date {
-        font-size: 12.5px;
-        color: #6e5e54;
+        border-top: 3px solid #141414;
       }
       nav.footer-nav {
         margin-top: 24px;
@@ -65,48 +77,58 @@
         margin-right: 16px;
       }
       .status-banner {
-        background: #f4e4da;
-        border: 1px solid #e5dad2;
-        color: #8f3e20;
+        border: 2px solid #141414;
+        color: #141414;
         font-size: 14px;
+        font-weight: 700;
         padding: 12px 16px;
-        border-radius: 6px;
         margin-bottom: 24px;
       }
       dl.facts {
-        font-size: 14.5px;
+        font-size: 16px;
         margin: 0;
       }
       dl.facts dt {
-        color: #8f3e20;
+        color: #595959;
         font-size: 13px;
         margin-top: 18px;
       }
       dl.facts dd {
         margin: 4px 0 0;
-        color: #2b211b;
+        color: #141414;
+        font-variant-numeric: tabular-nums;
+        overflow-wrap: anywhere;
       }
       dl.facts dd.muted {
-        color: #7c6a5e;
+        color: #595959;
+      }
+      dl.facts dd.muted::before {
+        content: '\2014\0020';
       }
       .note {
-        color: #6e5e54;
+        color: #595959;
         font-size: 13px;
       }
-      .last-checked {
-        display: inline-block;
-        background: #f4e4da;
-        border: 1px dashed #8f3e20;
-        color: #8f3e20;
-        font-size: 13px;
-        padding: 4px 10px 4px 8px;
-        border-radius: 4px;
-        margin-top: 8px;
+      .stamp {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border: 4px solid #a8301a;
+        color: #a8301a;
+        padding: 10px 18px;
+        margin: 8px 0;
+        transform: rotate(-3deg);
         font-variant-numeric: tabular-nums;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.04em;
       }
-      .last-checked::before {
-        content: '\2713\0020';
+      .stamp-line1 {
+        font-size: 17px;
+        font-weight: 700;
+      }
+      .stamp-line2 {
+        font-size: 13px;
+        font-weight: 700;
+        margin-top: 2px;
       }
       .source-links {
         display: flex;
@@ -119,15 +141,18 @@
       .source-chip {
         display: inline-block;
         max-width: 100%;
-        border: 1px dashed #b5502b;
-        border-radius: 4px;
+        border: 2px dashed #141414;
         padding: 4px 10px;
         font-size: 13px;
-        color: #b5502b;
+        color: #141414;
         text-decoration: none;
-        word-break: break-all;
+        overflow-wrap: anywhere;
         font-variant-numeric: tabular-nums;
-        letter-spacing: 0.03em;
+      }
+      .source-chip:hover,
+      .source-chip:focus-visible {
+        border-color: #a8301a;
+        color: #a8301a;
       }
       .pref-heading {
         display: flex;
@@ -137,8 +162,17 @@
       }
       .pref-count {
         font-size: 13px;
-        font-weight: normal;
-        color: #6e5e54;
+        font-weight: 400;
+        color: #595959;
+        font-variant-numeric: tabular-nums;
+      }
+      .count-badge {
+        display: inline-block;
+        margin: 8px 0 0;
+        font-size: 13px;
+        color: #141414;
+        border: 1px solid #141414;
+        padding: 2px 10px;
         font-variant-numeric: tabular-nums;
       }
       .spot-list {
@@ -147,42 +181,142 @@
         margin: 12px 0 0;
       }
       .spot-item {
-        border-left: 1px solid #7c6a5e;
-        padding: 2px 0 10px 14px;
-        margin-bottom: 4px;
+        border-bottom: 1px solid #ececec;
+        padding: 12px 0;
       }
-      .spot-meta {
-        display: block;
-        margin-top: 2px;
+      .spot-item:last-child {
+        border-bottom: none;
+      }
+      .spot-link {
+        display: flex;
+        gap: 10px;
+        text-decoration: none;
+        color: #141414;
+      }
+      .spot-link:focus-visible {
+        outline: 2px solid #a8301a;
+        outline-offset: 2px;
+      }
+      .cat-mark {
+        flex: none;
+        width: 26px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #141414;
         font-size: 13px;
-        color: #6e5e54;
+        font-weight: 700;
+        margin-top: 2px;
+      }
+      .cat-mark-inline {
+        display: inline-flex;
+        width: 22px;
+        height: 22px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #141414;
+        font-size: 12px;
+        font-weight: 700;
+        margin-right: 6px;
+        vertical-align: -5px;
+      }
+      .spot-body {
+        flex: 1;
+        min-width: 0;
+      }
+      .spot-name {
+        display: block;
+        font-size: 17px;
+        font-weight: 700;
+      }
+      .spot-link:hover .spot-name,
+      .spot-link:focus-visible .spot-name {
+        text-decoration: underline;
+        text-decoration-color: #a8301a;
+        text-decoration-thickness: 2px;
+      }
+      .spot-tags {
+        margin-top: 6px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      .tag {
+        display: inline-block;
+        font-size: 12px;
+        color: #595959;
+        border: 1px solid #595959;
+        padding: 1px 7px;
+        line-height: 1.6;
+      }
+      .tag.tag-strong {
+        color: #141414;
+        border-color: #141414;
       }
     </style>
   </head>
   <body>
     <h1>施設一覧</h1>
     <p>全国の工場見学・体験施設の情報を都道府県別に掲載しています(掲載数: 77件、36都道府県、公式サイトを確認して作成)。</p>
+    <span class="count-badge">掲載施設数 77件・36都道府県</span>
 
     <section>
       <h2 class="pref-heading"><span>北海道</span><span class="pref-count">6件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0001.html">サッポロビール北海道工場</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0001.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">サッポロビール北海道工場</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0007.html">白い恋人パーク</a>
-          <span class="spot-meta">🍫 食品 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0007.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">白い恋人パーク</span>
+              <span class="spot-tags"><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0030.html">余市蒸溜所</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0030.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">余市蒸溜所</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0056.html">ニセコ蒸溜所</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0056.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">ニセコ蒸溜所</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0058.html">明治なるほどファクトリー十勝</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0058.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">明治なるほどファクトリー十勝</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0059.html">男山酒造り資料舘</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0059.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">男山酒造り資料舘</span>
+              <span class="spot-tags"><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -190,8 +324,14 @@
     <section>
       <h2 class="pref-heading"><span>青森県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0060.html">BUNACO 西目屋工場</a>
-          <span class="spot-meta">🏺 伝統工芸 ・ 予約推奨 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0060.html">
+            <span class="cat-mark" aria-label="伝統工芸" title="伝統工芸">伝</span>
+            <span class="spot-body">
+              <span class="spot-name">BUNACO 西目屋工場</span>
+              <span class="spot-tags"><span class="tag">予約推奨</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -199,8 +339,14 @@
     <section>
       <h2 class="pref-heading"><span>岩手県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0061.html">小岩井農場 まきば園</a>
-          <span class="spot-meta">🍫 食品 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0061.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">小岩井農場 まきば園</span>
+              <span class="spot-tags"><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -208,11 +354,23 @@
     <section>
       <h2 class="pref-heading"><span>宮城県</span><span class="pref-count">2件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0031.html">宮城峡蒸溜所</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0031.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">宮城峡蒸溜所</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0062.html">鐘崎 笹かま館</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0062.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">鐘崎 笹かま館</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -220,8 +378,14 @@
     <section>
       <h2 class="pref-heading"><span>秋田県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0063.html">川連漆器伝統工芸館</a>
-          <span class="spot-meta">🏺 伝統工芸</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0063.html">
+            <span class="cat-mark" aria-label="伝統工芸" title="伝統工芸">伝</span>
+            <span class="spot-body">
+              <span class="spot-name">川連漆器伝統工芸館</span>
+              <span class="spot-tags"><span class="tag">料金不明</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -229,8 +393,14 @@
     <section>
       <h2 class="pref-heading"><span>山形県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0064.html">月山ワイン山ぶどう研究所</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0064.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">月山ワイン山ぶどう研究所</span>
+              <span class="spot-tags"><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -238,8 +408,14 @@
     <section>
       <h2 class="pref-heading"><span>福島県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0065.html">末廣酒造 嘉永蔵</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 予約不要</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0065.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">末廣酒造 嘉永蔵</span>
+              <span class="spot-tags"><span class="tag">予約不要</span><span class="tag">料金不明</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -247,17 +423,41 @@
     <section>
       <h2 class="pref-heading"><span>茨城県</span><span class="pref-count">4件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0012.html">めんたいパーク大洗</a>
-          <span class="spot-meta">🍫 食品 ・ 予約不要 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0012.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">めんたいパーク大洗</span>
+              <span class="spot-tags"><span class="tag">予約不要</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0015.html">キユーピー 五霞工場</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0015.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">キユーピー 五霞工場</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0017.html">ヤクルト 茨城工場</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0017.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">ヤクルト 茨城工場</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag">料金不明</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0024.html">アサヒビール茨城工場</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0024.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">アサヒビール茨城工場</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -265,8 +465,14 @@
     <section>
       <h2 class="pref-heading"><span>栃木県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0047.html">カルビー 清原工場</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0047.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">カルビー 清原工場</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -274,23 +480,59 @@
     <section>
       <h2 class="pref-heading"><span>埼玉県</span><span class="pref-count">6件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0004.html">明治なるほどファクトリー坂戸</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0004.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">明治なるほどファクトリー坂戸</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0005.html">グリコピア・イースト</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0005.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">グリコピア・イースト</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0011.html">赤城乳業 本庄千本さくら『5S』工場</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0011.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">赤城乳業 本庄千本さくら『5S』工場</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0039.html">造幣局 さいたま支局</a>
-          <span class="spot-meta">🏛️ インフラ・公共 ・ 予約不要 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0039.html">
+            <span class="cat-mark" aria-label="インフラ・公共" title="インフラ・公共">公</span>
+            <span class="spot-body">
+              <span class="spot-name">造幣局 さいたま支局</span>
+              <span class="spot-tags"><span class="tag">予約不要</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0052.html">本田技研工業 埼玉製作所 完成車工場</a>
-          <span class="spot-meta">✈️ 乗り物</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0052.html">
+            <span class="cat-mark" aria-label="乗り物" title="乗り物">乗</span>
+            <span class="spot-body">
+              <span class="spot-name">本田技研工業 埼玉製作所 完成車工場</span>
+              <span class="spot-tags"><span class="tag">料金不明</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0053.html">本田技研工業 埼玉製作所 エンジン工場</a>
-          <span class="spot-meta">✈️ 乗り物</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0053.html">
+            <span class="cat-mark" aria-label="乗り物" title="乗り物">乗</span>
+            <span class="spot-body">
+              <span class="spot-name">本田技研工業 埼玉製作所 エンジン工場</span>
+              <span class="spot-tags"><span class="tag">料金不明</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -298,8 +540,14 @@
     <section>
       <h2 class="pref-heading"><span>千葉県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0018.html">雪印メグミルク 野田工場</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0018.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">雪印メグミルク 野田工場</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -307,29 +555,77 @@
     <section>
       <h2 class="pref-heading"><span>東京都</span><span class="pref-count">8件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0014.html">マヨテラス</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0014.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">マヨテラス</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0022.html">サントリー〈天然水のビール工場〉東京・武蔵野</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0022.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">サントリー〈天然水のビール工場〉東京・武蔵野</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0036.html">JAL SKY MUSEUM</a>
-          <span class="spot-meta">✈️ 乗り物 ・ 要予約 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0036.html">
+            <span class="cat-mark" aria-label="乗り物" title="乗り物">乗</span>
+            <span class="spot-body">
+              <span class="spot-name">JAL SKY MUSEUM</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0037.html">ANA Blue Hangar Tour</a>
-          <span class="spot-meta">✈️ 乗り物 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0037.html">
+            <span class="cat-mark" aria-label="乗り物" title="乗り物">乗</span>
+            <span class="spot-body">
+              <span class="spot-name">ANA Blue Hangar Tour</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0044.html">日本銀行本店見学</a>
-          <span class="spot-meta">🏛️ インフラ・公共 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0044.html">
+            <span class="cat-mark" aria-label="インフラ・公共" title="インフラ・公共">公</span>
+            <span class="spot-body">
+              <span class="spot-name">日本銀行本店見学</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0045.html">東京都水の科学館</a>
-          <span class="spot-meta">🏛️ インフラ・公共 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0045.html">
+            <span class="cat-mark" aria-label="インフラ・公共" title="インフラ・公共">公</span>
+            <span class="spot-body">
+              <span class="spot-name">東京都水の科学館</span>
+              <span class="spot-tags"><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0046.html">東京都水道歴史館</a>
-          <span class="spot-meta">🏛️ インフラ・公共 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0046.html">
+            <span class="cat-mark" aria-label="インフラ・公共" title="インフラ・公共">公</span>
+            <span class="spot-body">
+              <span class="spot-name">東京都水道歴史館</span>
+              <span class="spot-tags"><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0048.html">コカ・コーラ ボトラーズジャパン 多摩工場</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0048.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">コカ・コーラ ボトラーズジャパン 多摩工場</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -337,32 +633,86 @@
     <section>
       <h2 class="pref-heading"><span>神奈川県</span><span class="pref-count">9件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0002.html">カップヌードルミュージアム 横浜</a>
-          <span class="spot-meta">🍫 食品 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0002.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">カップヌードルミュージアム 横浜</span>
+              <span class="spot-tags"><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0010.html">崎陽軒 横浜工場</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0010.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">崎陽軒 横浜工場</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0013.html">鈴廣かまぼこの里</a>
-          <span class="spot-meta">🍫 食品 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0013.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">鈴廣かまぼこの里</span>
+              <span class="spot-tags"><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0016.html">森永エンゼルミュージアム MORIUM</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0016.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">森永エンゼルミュージアム MORIUM</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0026.html">キリンビール横浜工場</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0026.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">キリンビール横浜工場</span>
+              <span class="spot-tags"><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0028.html">キリンビバレッジ湘南工場</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0028.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">キリンビバレッジ湘南工場</span>
+              <span class="spot-tags"><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0041.html">味の素 川崎工場</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0041.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">味の素 川崎工場</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0049.html">日産自動車 横浜工場</a>
-          <span class="spot-meta">✈️ 乗り物</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0049.html">
+            <span class="cat-mark" aria-label="乗り物" title="乗り物">乗</span>
+            <span class="spot-body">
+              <span class="spot-name">日産自動車 横浜工場</span>
+              <span class="spot-tags"><span class="tag">料金不明</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0050.html">三菱みなとみらい技術館</a>
-          <span class="spot-meta">🏭 工業・素材 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0050.html">
+            <span class="cat-mark" aria-label="工業・素材" title="工業・素材">工</span>
+            <span class="spot-body">
+              <span class="spot-name">三菱みなとみらい技術館</span>
+              <span class="spot-tags"><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -370,14 +720,32 @@
     <section>
       <h2 class="pref-heading"><span>山梨県</span><span class="pref-count">3件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0009.html">桔梗信玄餅工場テーマパーク</a>
-          <span class="spot-meta">🍫 食品 ・ 予約不要 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0009.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">桔梗信玄餅工場テーマパーク</span>
+              <span class="spot-tags"><span class="tag">予約不要</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0021.html">サントリー白州蒸溜所</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0021.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">サントリー白州蒸溜所</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0023.html">サントリー天然水 南アルプス白州工場</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0023.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">サントリー天然水 南アルプス白州工場</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -385,11 +753,23 @@
     <section>
       <h2 class="pref-heading"><span>静岡県</span><span class="pref-count">2件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0055.html">本田技研工業 浜松製作所</a>
-          <span class="spot-meta">✈️ 乗り物</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0055.html">
+            <span class="cat-mark" aria-label="乗り物" title="乗り物">乗</span>
+            <span class="spot-body">
+              <span class="spot-name">本田技研工業 浜松製作所</span>
+              <span class="spot-tags"><span class="tag">料金不明</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0082.html">ヤマハ発動機 コミュニケーションプラザ</a>
-          <span class="spot-meta">✈️ 乗り物 ・ 予約不要 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0082.html">
+            <span class="cat-mark" aria-label="乗り物" title="乗り物">乗</span>
+            <span class="spot-body">
+              <span class="spot-name">ヤマハ発動機 コミュニケーションプラザ</span>
+              <span class="spot-tags"><span class="tag">予約不要</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -397,14 +777,32 @@
     <section>
       <h2 class="pref-heading"><span>愛知県</span><span class="pref-count">3件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0027.html">キリンビール名古屋工場</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0027.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">キリンビール名古屋工場</span>
+              <span class="spot-tags"><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0034.html">トヨタ会館</a>
-          <span class="spot-meta">✈️ 乗り物 ・ 予約不要 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0034.html">
+            <span class="cat-mark" aria-label="乗り物" title="乗り物">乗</span>
+            <span class="spot-body">
+              <span class="spot-name">トヨタ会館</span>
+              <span class="spot-tags"><span class="tag">予約不要</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0043.html">ノリタケの森</a>
-          <span class="spot-meta">🏺 伝統工芸 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0043.html">
+            <span class="cat-mark" aria-label="伝統工芸" title="伝統工芸">伝</span>
+            <span class="spot-body">
+              <span class="spot-name">ノリタケの森</span>
+              <span class="spot-tags"><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -412,8 +810,14 @@
     <section>
       <h2 class="pref-heading"><span>三重県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0051.html">本田技研工業 鈴鹿製作所</a>
-          <span class="spot-meta">✈️ 乗り物</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0051.html">
+            <span class="cat-mark" aria-label="乗り物" title="乗り物">乗</span>
+            <span class="spot-body">
+              <span class="spot-name">本田技研工業 鈴鹿製作所</span>
+              <span class="spot-tags"><span class="tag">料金不明</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -421,8 +825,14 @@
     <section>
       <h2 class="pref-heading"><span>京都府</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0032.html">月桂冠大倉記念館</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 予約推奨 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0032.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">月桂冠大倉記念館</span>
+              <span class="spot-tags"><span class="tag">予約推奨</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -430,17 +840,41 @@
     <section>
       <h2 class="pref-heading"><span>大阪府</span><span class="pref-count">4件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0003.html">カップヌードルミュージアム 大阪池田</a>
-          <span class="spot-meta">🍫 食品 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0003.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">カップヌードルミュージアム 大阪池田</span>
+              <span class="spot-tags"><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0020.html">サントリー山崎蒸溜所</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0020.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">サントリー山崎蒸溜所</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0025.html">アサヒビール吹田工場</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0025.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">アサヒビール吹田工場</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0038.html">造幣局 大阪本局</a>
-          <span class="spot-meta">🏛️ インフラ・公共 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0038.html">
+            <span class="cat-mark" aria-label="インフラ・公共" title="インフラ・公共">公</span>
+            <span class="spot-body">
+              <span class="spot-name">造幣局 大阪本局</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -448,11 +882,23 @@
     <section>
       <h2 class="pref-heading"><span>兵庫県</span><span class="pref-count">2件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0006.html">グリコピア神戸</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0006.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">グリコピア神戸</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0033.html">白鶴酒造資料館</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 予約不要 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0033.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">白鶴酒造資料館</span>
+              <span class="spot-tags"><span class="tag">予約不要</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -460,8 +906,14 @@
     <section>
       <h2 class="pref-heading"><span>鳥取県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0072.html">大山乳業</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0072.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">大山乳業</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -469,8 +921,14 @@
     <section>
       <h2 class="pref-heading"><span>島根県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0075.html">島根ワイナリー ワイン醸造館</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0075.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">島根ワイナリー ワイン醸造館</span>
+              <span class="spot-tags"><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -478,11 +936,23 @@
     <section>
       <h2 class="pref-heading"><span>岡山県</span><span class="pref-count">2件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0073.html">キリンビール岡山工場</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0073.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">キリンビール岡山工場</span>
+              <span class="spot-tags"><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0074.html">JFEスチール西日本製鉄所 倉敷地区</a>
-          <span class="spot-meta">🏭 工業・素材 ・ 要予約</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0074.html">
+            <span class="cat-mark" aria-label="工業・素材" title="工業・素材">工</span>
+            <span class="spot-body">
+              <span class="spot-name">JFEスチール西日本製鉄所 倉敷地区</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag">料金不明</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -490,14 +960,32 @@
     <section>
       <h2 class="pref-heading"><span>広島県</span><span class="pref-count">3件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0035.html">マツダミュージアム</a>
-          <span class="spot-meta">✈️ 乗り物 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0035.html">
+            <span class="cat-mark" aria-label="乗り物" title="乗り物">乗</span>
+            <span class="spot-body">
+              <span class="spot-name">マツダミュージアム</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0070.html">アヲハタ ジャムデッキ</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0070.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">アヲハタ ジャムデッキ</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
-        <li class="spot-item"><a href="./fac-0071.html">Wood Egg お好み焼館</a>
-          <span class="spot-meta">🍫 食品 ・ 要予約 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0071.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">Wood Egg お好み焼館</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -505,8 +993,14 @@
     <section>
       <h2 class="pref-heading"><span>山口県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0076.html">獺祭ストア 本社蔵</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0076.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">獺祭ストア 本社蔵</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -514,8 +1008,14 @@
     <section>
       <h2 class="pref-heading"><span>徳島県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0066.html">大谷焼窯元 大西陶器</a>
-          <span class="spot-meta">🏺 伝統工芸 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0066.html">
+            <span class="cat-mark" aria-label="伝統工芸" title="伝統工芸">伝</span>
+            <span class="spot-body">
+              <span class="spot-name">大谷焼窯元 大西陶器</span>
+              <span class="spot-tags"><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -523,8 +1023,14 @@
     <section>
       <h2 class="pref-heading"><span>香川県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0067.html">マルキン醤油記念館</a>
-          <span class="spot-meta">🍫 食品 ・ 予約不要 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0067.html">
+            <span class="cat-mark" aria-label="食品" title="食品">食</span>
+            <span class="spot-body">
+              <span class="spot-name">マルキン醤油記念館</span>
+              <span class="spot-tags"><span class="tag">予約不要</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -532,8 +1038,14 @@
     <section>
       <h2 class="pref-heading"><span>愛媛県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0068.html">タオル美術館</a>
-          <span class="spot-meta">🏺 伝統工芸 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0068.html">
+            <span class="cat-mark" aria-label="伝統工芸" title="伝統工芸">伝</span>
+            <span class="spot-body">
+              <span class="spot-name">タオル美術館</span>
+              <span class="spot-tags"><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -541,8 +1053,14 @@
     <section>
       <h2 class="pref-heading"><span>高知県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0069.html">酔鯨酒造 土佐蔵</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0069.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">酔鯨酒造 土佐蔵</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -550,8 +1068,14 @@
     <section>
       <h2 class="pref-heading"><span>福岡県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0042.html">TOTOミュージアム</a>
-          <span class="spot-meta">🏭 工業・素材 ・ 予約不要 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0042.html">
+            <span class="cat-mark" aria-label="工業・素材" title="工業・素材">工</span>
+            <span class="spot-body">
+              <span class="spot-name">TOTOミュージアム</span>
+              <span class="spot-tags"><span class="tag">予約不要</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -559,8 +1083,14 @@
     <section>
       <h2 class="pref-heading"><span>佐賀県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0079.html">肥前屋</a>
-          <span class="spot-meta">🍺 飲料・酒</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0079.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">肥前屋</span>
+              <span class="spot-tags"><span class="tag">料金不明</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -568,8 +1098,14 @@
     <section>
       <h2 class="pref-heading"><span>長崎県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0080.html">壱岐の蔵酒造</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 予約推奨 ・ 無料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0080.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">壱岐の蔵酒造</span>
+              <span class="spot-tags"><span class="tag">予約推奨</span><span class="tag tag-strong">無料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -577,8 +1113,14 @@
     <section>
       <h2 class="pref-heading"><span>熊本県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0054.html">本田技研工業 熊本製作所</a>
-          <span class="spot-meta">✈️ 乗り物</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0054.html">
+            <span class="cat-mark" aria-label="乗り物" title="乗り物">乗</span>
+            <span class="spot-body">
+              <span class="spot-name">本田技研工業 熊本製作所</span>
+              <span class="spot-tags"><span class="tag">料金不明</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -586,8 +1128,14 @@
     <section>
       <h2 class="pref-heading"><span>大分県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0077.html">サッポロビール九州日田工場</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0077.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">サッポロビール九州日田工場</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -595,8 +1143,14 @@
     <section>
       <h2 class="pref-heading"><span>宮崎県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0081.html">旭化成延岡展示センター</a>
-          <span class="spot-meta">🏭 工業・素材 ・ 要予約</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0081.html">
+            <span class="cat-mark" aria-label="工業・素材" title="工業・素材">工</span>
+            <span class="spot-body">
+              <span class="spot-name">旭化成延岡展示センター</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag">料金不明</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
@@ -604,8 +1158,14 @@
     <section>
       <h2 class="pref-heading"><span>沖縄県</span><span class="pref-count">1件</span></h2>
       <ul class="spot-list">
-        <li class="spot-item"><a href="./fac-0078.html">ヘリオス酒造</a>
-          <span class="spot-meta">🍺 飲料・酒 ・ 要予約 ・ 有料</span>
+        <li class="spot-item">
+          <a class="spot-link" href="./fac-0078.html">
+            <span class="cat-mark" aria-label="飲料・酒" title="飲料・酒">飲</span>
+            <span class="spot-body">
+              <span class="spot-name">ヘリオス酒造</span>
+              <span class="spot-tags"><span class="tag">要予約</span><span class="tag tag-strong">有料</span></span>
+            </span>
+          </a>
         </li>
       </ul>
     </section>
