@@ -4,116 +4,231 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>見学みっけ | 工場見学・施設見学スポットを探せるアプリ</title>
+    <meta
+      name="description"
+      content="全国の工場見学・施設見学スポットを都道府県別に探せます。掲載情報はすべて公式サイトを確認して作成しています。"
+    />
+    <link rel="canonical" href="https://moriosan1986-design.github.io/kengaku-mikke/index.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:site_name" content="見学みっけ" />
+    <meta property="og:title" content="見学みっけ | 工場見学・施設見学スポットを探せるアプリ" />
+    <meta
+      property="og:description"
+      content="全国の工場見学・施設見学スポットを都道府県別に探せます。掲載情報はすべて公式サイトを確認して作成しています。"
+    />
+    <meta property="og:url" content="https://moriosan1986-design.github.io/kengaku-mikke/index.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet" />
     <style>
+      * {
+        box-sizing: border-box;
+      }
       body {
-        font-family:
-          -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif;
-        background: #faf6f3;
-        color: #2b211b;
-        line-height: 1.8;
+        font-family: 'BIZ UDPGothic', 'Hiragino Sans', 'Yu Gothic', 'Meiryo', sans-serif;
+        background: #f9fafa;
+        color: #141414;
+        line-height: 1.7;
         max-width: 680px;
         margin: 0 auto;
-        padding: 40px 24px 80px;
+        padding: 32px 24px 80px;
       }
       h1 {
-        font-size: 24px;
-        color: #8f3e20;
-      }
-      h2 {
-        font-size: 16px;
-        color: #8f3e20;
-        margin-top: 32px;
-      }
-      p {
-        font-size: 14.5px;
-        color: #6e5e54;
-      }
-      ul {
-        font-size: 14.5px;
-        color: #6e5e54;
-        padding-left: 22px;
-      }
-      li {
-        margin-bottom: 6px;
-      }
-      a {
-        color: #b5502b;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.3;
+        margin: 0 0 8px;
       }
       .lead {
         font-size: 15px;
-        color: #6e5e54;
-        margin-top: 8px;
+        color: #595959;
+        margin: 0 0 8px;
       }
-      .count {
+      .count-badge {
         display: inline-block;
-        margin-top: 8px;
         font-size: 13px;
-        color: #8f3e20;
-        background: #f3ded4;
-        border-radius: 999px;
-        padding: 4px 14px;
+        color: #141414;
+        border: 1px solid #141414;
+        padding: 2px 10px;
+        font-variant-numeric: tabular-nums;
+        margin-bottom: 16px;
+      }
+
+      .cta-primary {
+        display: block;
+        text-align: center;
+        background: #141414;
+        color: #f9fafa;
+        padding: 13px 20px;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+        margin-bottom: 14px;
+        max-width: 320px;
+      }
+      .store-row {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        padding: 10px;
+      }
+      .store-caption {
+        font-size: 12.5px;
+        color: #595959;
       }
       .store-badge {
         display: inline-block;
-        margin-top: 24px;
       }
       .store-badge img {
         display: block;
         height: 40px;
         width: auto;
       }
-      .web-cta {
-        display: block;
-        margin-top: 24px;
-        background: #8f3e20;
-        color: #fff;
-        padding: 10px 20px;
-        border-radius: 6px;
-        text-decoration: none;
-        font-size: 14.5px;
-        font-weight: bold;
-        width: fit-content;
-      }
-      hr {
-        margin-top: 40px;
-        border: none;
-        border-top: 1px solid #e5dad2;
-      }
+
       .source-note {
-        font-size: 12.5px;
-        color: #6e5e54;
+        border: 2px solid #141414;
+        padding: 12px 14px;
+        font-size: 13.5px;
+        margin-bottom: 20px;
+      }
+      .source-note strong {
+        display: block;
+        font-size: 14.5px;
+        margin-bottom: 3px;
+      }
+
+      .hero-image {
+        margin-bottom: 24px;
+      }
+      .hero-image img {
+        display: block;
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        margin: 0 auto;
+        border: 2px solid #141414;
+      }
+      .hero-caption {
+        text-align: center;
+        font-size: 12px;
+        color: #595959;
+        margin-top: 8px;
+      }
+
+      h2 {
+        font-size: 16px;
+        font-weight: 700;
+        border-bottom: 3px solid #141414;
+        padding-bottom: 6px;
+        margin: 28px 0 10px;
+      }
+      ul.feature-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      ul.feature-list li {
+        font-size: 14.5px;
+        padding: 9px 0;
+        border-bottom: 1px solid #ececec;
+        overflow-wrap: anywhere;
+      }
+      ul.feature-list li:last-child {
+        border-bottom: none;
+      }
+
+      hr {
+        margin-top: 36px;
+        border: none;
+        border-top: 3px solid #141414;
+      }
+      .source-attribution {
+        font-size: 12px;
+        color: #595959;
+        margin-top: 20px;
+        overflow-wrap: anywhere;
       }
       nav.footer-nav {
-        margin-top: 24px;
+        margin-top: 20px;
         font-size: 13px;
       }
       nav.footer-nav a {
+        color: #a8301a;
         margin-right: 16px;
+      }
+      a {
+        overflow-wrap: anywhere;
+      }
+
+      @media (min-width: 768px) {
+        body {
+          max-width: 920px;
+          padding: 48px 32px 96px;
+        }
+        .hero-wrap {
+          display: grid;
+          grid-template-columns: 1fr 320px;
+          gap: 40px;
+          align-items: start;
+        }
+        .hero-left {
+          grid-column: 1;
+        }
+        .hero-image {
+          grid-column: 2;
+          grid-row: 1;
+          margin-bottom: 0;
+        }
       }
     </style>
   </head>
   <body>
-    <h1>見学みっけ</h1>
-    <p class="lead">全国の工場見学・施設見学スポットを探せるアプリ</p>
-    <p class="count">掲載施設数: <span id="facility-count">82</span>件</p>
+    <div class="hero-wrap">
+      <div class="hero-left">
+        <h1>見学みっけ</h1>
+        <p class="lead">全国の工場見学・施設見学スポットを、都道府県別に探せます。</p>
+        <span id="count-badge-slot"></span>
+
+        <a class="cta-primary" href="./spots/">施設をWebで見る</a>
+
+        <div class="store-row">
+          <span class="store-caption">地図や現在地から探すならアプリで</span>
+          <a class="store-badge" href="https://apps.apple.com/jp/app/id6799468407">
+            <img src="./assets/app-store-badge.svg" alt="Download on the App Store" />
+          </a>
+        </div>
+
+        <div class="source-note">
+          <strong>掲載情報はすべて、公式サイトを確認して作成しています。</strong>
+          公式サイトに記載のない項目は推測で補わず「記載なし」と明示しています。
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="./assets/top-list.webp"
+          width="640"
+          height="1104"
+          alt="アプリの一覧画面。都道府県順に並んだ施設カードと、料金・予約・試食の有無などの条件が一目でわかる"
+        />
+        <p class="hero-caption">アプリの一覧画面(実機キャプチャ)</p>
+      </div>
+    </div>
 
     <h2>主な特徴</h2>
-    <ul>
+    <ul class="feature-list">
       <li>公式サイトを確認して作成した情報を掲載</li>
-      <li>現在地から近い順に並べ替え</li>
-      <li>地図から探せる</li>
-      <li>オフラインでも閲覧できる</li>
-      <li>無料・予約不要などの条件で絞り込める</li>
+      <li>現在地から近い順に並べ替え(アプリ)</li>
+      <li>地図から探せる(アプリ)</li>
+      <li>オフラインでも閲覧できる(アプリ)</li>
+      <li>無料・予約不要などの条件で絞り込める(アプリ)</li>
     </ul>
 
-    <a class="web-cta" href="./spots/">WEB版で施設を探す →</a>
-
-    <a class="store-badge" href="https://apps.apple.com/jp/app/id6799468407">
-      <img src="./assets/app-store-badge.svg" alt="Download on the App Store" />
-    </a>
-
     <hr />
-    <p class="source-note">
+    <p class="source-attribution">
       出典：国土地理院ウェブサイト<br />
       （https://msearch.gsi.go.jp/address-search/AddressSearch）<br />
       本アプリの施設座標は、同ウェブサイトの住所検索機能により取得したデータをもとに編集して掲載しています。
@@ -140,13 +255,24 @@
             );
           })
           .then(function (facilities) {
-            var el = document.getElementById('facility-count');
-            if (el && Array.isArray(facilities)) {
-              el.textContent = String(facilities.length);
-            }
+            if (!Array.isArray(facilities)) return;
+            var active = facilities.filter(function (f) {
+              return f.status === 'active';
+            });
+            var prefSet = {};
+            active.forEach(function (f) {
+              prefSet[f.prefectureCode] = true;
+            });
+            var prefCount = Object.keys(prefSet).length;
+            var slot = document.getElementById('count-badge-slot');
+            if (!slot) return;
+            var badge = document.createElement('span');
+            badge.className = 'count-badge';
+            badge.textContent = '掲載施設数 ' + active.length + '件・' + prefCount + '都道府県';
+            slot.appendChild(badge);
           })
           .catch(function () {
-            // 取得失敗時はHTMLに直書きした初期値をそのまま表示する
+            // 取得に失敗した場合は件数表示の要素ごと出さない(裁定182、固定値フォールバックなし)
           });
       })();
     </script>
